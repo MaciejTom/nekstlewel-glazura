@@ -1,431 +1,311 @@
 {
   "meta": {
-    "analyzed_at": "2026-01-26T12:00:00Z",
+    "analyzed_at": "2026-02-03T11:00:00Z",
     "agent": "analyzer",
-    "version": "1.0",
-    "project": "tom-art-krosno"
-  },
-
-  "REASONING": {
-    "direction": {
-      "chosen": "WARM",
-      "confidence": "medium-high",
-      "reasons": [
-        "Firma jednoosobowa (Tomasz Duda) — osobisty kontakt z klientem",
-        "Nazwa TOM-ART sugeruje artystyczne/kreatywne podejście do wykończeniówki",
-        "Nagroda 'Orły Branży Budowlanej 2024' buduje ciepłe zaufanie (nie chłodny korporat)",
-        "B2C klient indywidualny — potrzebuje ciepła i bezpieczeństwa przy remoncie",
-        "Krosno Odrzańskie to małe miasto (~18k) — lokalny, osobisty charakter",
-        "Krótki staż (od 2023) kompensowany nagrodą — ciepło + autorytet"
-      ],
-      "alternatives_rejected": [
-        {
-          "option": "INDUSTRIAL",
-          "why": "Zbyt chłodne dla jednoosobowej firmy w małym mieście, nazwa TOM-ART sugeruje artyzm nie industrialność"
-        },
-        {
-          "option": "PREMIUM",
-          "why": "Brak dowodów na segment premium — standardowe wykończenia"
-        },
-        {
-          "option": "CLEAN",
-          "why": "Za mało korporacyjne, firma jednoosobowa z osobistym podejściem"
-        }
-      ],
-      "data_points": [
-        "Jednoosobowa działalność gospodarcza — osobisty kontakt",
-        "Krosno Odrzańskie (~18k mieszk.) — lokalna społeczność",
-        "Rating 8.9/10 — wysoki ale nie idealny, autentyczny",
-        "Nazwa TOM-ART — element artystyczny/kreatywny",
-        "Laureat Orłów 2024 — uznanie branżowe budujące zaufanie"
-      ]
-    },
-
-    "tone": {
-      "chosen": "przyjazny_fachowiec",
-      "formality": 2,
-      "warmth": 4,
-      "reasons": [
-        "Firma jednoosobowa — Tomasz osobiście wykonuje prace i rozmawia z klientem",
-        "Małe miasto — relacje osobiste, bezpośredni kontakt",
-        "Szeroki zakres usług — fachowiec 'od wszystkiego' w wykończeniówce",
-        "Nagroda branżowa daje autorytet — nie musi udowadniać, może być ciepły",
-        "Młoda firma (2023) — dynamiczny, ale nie nachalny"
-      ],
-      "voice_guidance": {
-        "używamy": ["pomogę", "zadbam", "wykonam", "doradzę", "u mnie"],
-        "unikamy": ["oferujemy" , "realizujemy", "kompleksowa obsługa", "innowacyjne rozwiązania", "profesjonalny zespół"]
-      }
-    },
-
-    "usp_hierarchy": {
-      "why_this_order": [
-        "#1: Laureat Orłów Branży Budowlanej 2024 — UNIKALNY wyróżnik, nikt inny w okolicy tego nie ma",
-        "#2: Rating 8.9/10, 15 opinii — dobry E-E-A-T, potwierdzone przez klientów",
-        "#3: Artystyczne podejście (TOM-ART) — nie tylko remont, ale z wyczuciem estetyki",
-        "#4: Szeroki zakres wykończeniówki — jeden wykonawca od A do Z",
-        "#5: Lokalizacja Krosno Odrzańskie — znajomość lokalnych warunków"
-      ],
-      "data_proof": {
-        "award": "Orły Branży Budowlanej 2024 — jedyny taki wyróżnik",
-        "rating": "8.9/10 z 15 opinii — wiarygodny",
-        "scope": "12 kodów PKD — od tynków po instalacje",
-        "location": "Krosno Odrzańskie, Grobla 64 — stała siedziba"
-      }
-    }
+    "version": "2.0",
+    "project": "glazura"
   },
 
   "inventory": {
     "basic_data": {
-      "name": true,
-      "full_name": "TOM-ART Tomasz Duda",
-      "type": true,
-      "type_detail": "Indywidualna działalność gospodarcza",
-      "city": true,
-      "city_name": "Krosno Odrzańskie",
-      "phone": true,
-      "phone_number": "514 432 142",
-      "email": false,
-      "hours": false,
-      "address": true,
-      "address_detail": "Grobla 64, 66-600 Krosno Odrzańskie",
-      "nip": "6731736836",
-      "regon": "526692893",
-      "start_date": "16.10.2023"
+      "name": "Glazurnik",
+      "full_name": "Glazurnik",
+      "owner": null,
+      "type": "posadzki przemysłowe i komercyjne",
+      "city": "Zielona Góra",
+      "address": "Różana 5e1, 66-016 Zielona Góra",
+      "phone": "510 625 088",
+      "email": null,
+      "hours": "do 16:00",
+      "nip": null
     },
     "reviews": {
-      "count": 15,
-      "average_rating": 8.9,
-      "rating_scale": "out of 10",
-      "source": "Orły Branży Budowlanej / ranking",
-      "quality": "limited — brak treści tekstowych opinii w danych",
-      "text_reviews_available": false
+      "count": 0,
+      "average_rating": null,
+      "sources": [],
+      "quality": "BRAK — honest selling wymagany"
     },
     "visual_materials": {
       "logo": {
-        "exists": true,
-        "description": "Logo TOM-ART — granatowo-czerwone z ikoną domu, tło artystyczne (akwarela żółto-różowo-zielona), napis 'Tomasz Wszołek' — UWAGA: logo mówi 'Tomasz Wszołek' ale firma to 'Tomasz Duda' — potencjalna rozbieżność",
-        "colors_extractable": true,
-        "primary_colors": ["#1B2A4A", "#C41E3A", "#FFD700", "#00BFA5"],
-        "quality": "good"
+        "exists": false,
+        "source": null,
+        "quality": null
       },
       "photos": {
-        "count": 8,
-        "relevant_count": 6,
+        "count": 4,
+        "source": "klient",
         "types": [
-          "realizacja_exterior",
-          "branding_logo",
-          "realizacja_interior_remont",
-          "realizacja_interior_wykanczanie",
-          "certyfikaty_INNA_FIRMA",
-          "reklama_INNA_FIRMA",
-          "realizacja_exterior_nowoczesny",
-          "realizacja_exterior_elewacja"
+          "hala przemysłowa (1)",
+          "warsztat samochodowy (1)",
+          "salon/serwis samochodowy (1)",
+          "przestrzeń komercyjna (1)"
         ],
-        "quality": ["good", "good", "good", "good", "irrelevant", "irrelevant", "good", "good"]
+        "quality": "good - profesjonalne realizacje przemysłowe"
       }
     },
-    "awards": [
-      {
-        "name": "Orły Branży Budowlanej",
-        "year": 2024,
-        "type": "laureat",
-        "significance": "high — wyróżnik branżowy, silny trust signal"
-      }
-    ],
-    "missing": [
-      "Email kontaktowy",
-      "Godziny otwarcia",
-      "Treści opinii tekstowych (tylko rating liczbowy)",
-      "Zdjęcia zespołu/właściciela",
-      "Cennik orientacyjny",
-      "Opis doświadczenia / portfolio realizacji"
-    ]
+    "credentials": {
+      "years_in_business": null,
+      "certyfikaty": []
+    },
+    "missing": ["opinie", "email", "NIP", "lata działalności", "imię właściciela"]
   },
 
   "review_analysis": {
-    "total_reviews": 15,
-    "average_rating": 8.9,
-    "rating_scale": "1-10",
+    "total_reviews": 0,
+    "average_rating": null,
+    "praise_themes": [],
+    "criticism_themes": [],
+    "emotional_tone": null,
+    "customer_language": null,
+    "best_quotes": [],
+    "note": "BRAK OPINII - Tier 4 honest selling dla tej sekcji"
+  },
 
-    "note": "BRAK treści tekstowych opinii w dostarczonych danych. Analiza oparta wyłącznie na ratingu liczbowym i kontekście nagrody.",
-
-    "inferred_praise_themes": [
+  "photos_analysis": {
+    "summary": "4 zdjęcia pokazują WYRAŹNĄ specjalizację przemysłową — Tier 2",
+    "categories": [
       {
-        "theme": "jakość wykonania",
-        "evidence": "Rating 8.9/10 + nagroda Orły Branży Budowlanej",
-        "confidence": "medium"
+        "category": "Hala przemysłowa",
+        "count": 1,
+        "style": "industrial, szare płytki, duża skala",
+        "estimated_area": "500+ m²",
+        "quality": "high",
+        "type": "B2B"
       },
       {
-        "theme": "profesjonalizm",
-        "evidence": "Nagroda branżowa wymaga weryfikacji jakości",
-        "confidence": "medium"
+        "category": "Warsztat samochodowy",
+        "count": 1,
+        "style": "industrial, podnośniki hydrauliczne",
+        "quality": "high",
+        "type": "B2B - motoryzacja"
+      },
+      {
+        "category": "Salon/serwis samochodowy",
+        "count": 1,
+        "style": "dealership, samochody premium",
+        "estimated_area": "800+ m²",
+        "quality": "high",
+        "type": "B2B - motoryzacja premium"
+      },
+      {
+        "category": "Przestrzeń komercyjna",
+        "count": 1,
+        "style": "modern, duży format, LED, szkło",
+        "quality": "high",
+        "type": "B2B - komercyjne"
       }
     ],
-
-    "emotional_tone": {
-      "dominant": "zaufanie",
-      "secondary": "satysfakcja",
-      "sentiment_score": 0.78,
-      "note": "Inferowane z ratingu, nie z treści opinii"
-    },
-
-    "customer_language": {
-      "formality": "unknown — brak treści opinii",
-      "common_phrases": []
-    }
+    "specialization_detected": "Posadzki przemysłowe i komercyjne (B2B)",
+    "NOT_detected": ["łazienki", "mieszkania", "B2C"],
+    "photo_gaps": ["brak zdjęć zespołu", "brak before/after"]
   },
 
   "usp": [
     {
       "id": 1,
-      "statement": "Laureat Orłów Branży Budowlanej 2024 — nagrodzony za jakość",
+      "statement": "Specjalizacja przemysłowa (nie łazienki)",
       "evidence_strength": "strong",
-      "evidence": "Oficjalna nagroda branżowa, wyróżnienie w rankingu",
-      "use_as": "PRIMARY HOOK — otwieracz sekcji O mnie i Hero"
+      "type": "visible_specialization",
+      "proof": "4/4 zdjęć to obiekty przemysłowe/komercyjne, 0 łazienek",
+      "uniqueness": "WYRÓŻNIK - większość glazurników robi łazienki"
     },
     {
       "id": 2,
-      "statement": "Ocena 8.9/10 od klientów — potwierdzona jakość",
-      "evidence_strength": "medium",
-      "evidence": "15 opinii, rating 8.9/10",
-      "use_as": "TRUST SIGNAL — social proof w Hero i O mnie"
+      "statement": "Duże powierzchnie (500-1000+ m²)",
+      "evidence_strength": "strong",
+      "type": "visible_specialization",
+      "proof": "Zdjęcia pokazują hale i salony o dużym metrażu",
+      "uniqueness": "Nie każdy glazurnik umie robić duże powierzchnie"
     },
     {
       "id": 3,
-      "statement": "Artystyczne podejście do wykończeniówki (TOM-ART)",
-      "evidence_strength": "medium",
-      "evidence": "Nazwa firmy, artystyczne logo, zdjęcia realizacji z detalami (sztukaterie, panele ozdobne)",
-      "use_as": "DIFFERENTIATOR — nie byle jaki remont, ale z wyczuciem"
+      "statement": "Klienci B2B (dealerzy, hale)",
+      "evidence_strength": "strong",
+      "type": "visible_specialization",
+      "proof": "Salon samochodowy, hala przemysłowa - to nie klienci indywidualni",
+      "uniqueness": "Portfolio B2B buduje wiarygodność dla kolejnych klientów B2B"
     },
     {
       "id": 4,
-      "statement": "Kompleksowa wykończeniówka — od tynków po instalacje",
-      "evidence_strength": "strong",
-      "evidence": "12 kodów PKD: tynkowanie, posadzki, malowanie, stolarka, instalacje elektryczne, wodno-kanalizacyjne, izolacje",
-      "use_as": "CONVENIENCE — jeden wykonawca zamiast kilku"
-    },
-    {
-      "id": 5,
-      "statement": "Lokalny fachowiec z Krosna Odrzańskiego",
+      "statement": "Płytki odporne na obciążenia",
       "evidence_strength": "medium",
-      "evidence": "Stała siedziba Grobla 64, działalność lokalna",
-      "use_as": "SEO LOCAL — frazy lokalne"
-    }
-  ],
-
-  "photos_analysis": [
-    {
-      "id": "photo_1",
-      "filename": "photo-1.jpg",
-      "content": "Dom jednorodzinny z białą elewacją, kolumny przy wejściu, dach ceramiczny czerwony, prace przygotowawcze na placu (folia, materiały). Elegancki dom w stylu klasycznym.",
-      "technical_quality": "good",
-      "usability": {
-        "recommended_for": ["hero", "galeria", "realizacje"],
-        "mood": "solidna realizacja, elegancja"
-      },
-      "relevant": true
-    },
-    {
-      "id": "photo_2",
-      "filename": "photo-2.jpg",
-      "content": "Logo TOM-ART — granatowy tekst z ikoną domu, tło akwarelowe (żółty, różowy, zielony), podpis 'Tomasz Wszołek'",
-      "technical_quality": "good",
-      "usability": {
-        "recommended_for": ["branding", "header"],
-        "mood": "artystyczne, kolorowe, kreatywne"
-      },
-      "relevant": true,
-      "note": "Logo mówi 'Tomasz Wszołek' ale firma zarejestrowana na 'Tomasz Duda' — wyjaśnić rozbieżność"
-    },
-    {
-      "id": "photo_3",
-      "filename": "photo-3.jpg",
-      "content": "Wnętrze w trakcie remontu — malowanie ścian na zielono, podłoga drewniana ciemna w trakcie układania, drabina, farba, wałek",
-      "technical_quality": "good",
-      "usability": {
-        "recommended_for": ["galeria", "uslugi_malowanie"],
-        "mood": "prace w toku, profesjonalne narzędzia"
-      },
-      "relevant": true,
-      "note": "Wygląda jak rendering 3D / zdjęcie stockowe — nie autentyczne zdjęcie realizacji"
-    },
-    {
-      "id": "photo_4",
-      "filename": "photo-4.jpg",
-      "content": "Wnętrze w trakcie wykańczania — korytarz z białymi panelami/sztukateriami na ścianach, sufit gładki, materiały budowlane na podłodze (Atlas). Widoczna dbałość o detale ozdobne.",
-      "technical_quality": "good",
-      "usability": {
-        "recommended_for": ["galeria", "realizacje", "uslugi_wykanczanie"],
-        "mood": "praca w toku, detale wykończeniowe, sztukaterie"
-      },
-      "relevant": true
-    },
-    {
-      "id": "photo_5",
-      "filename": "photo-5.jpg",
-      "content": "6 certyfikatów szkoleniowych — Waldemar Korzeniowski, Zakład Elektrotechniki TELSTER. Certyfikaty Montersi, Hikvision, Telkom-Telmor.",
-      "technical_quality": "good",
-      "usability": {
-        "recommended_for": [],
-        "mood": "N/A"
-      },
-      "relevant": false,
-      "note": "INNA FIRMA — certyfikaty Waldemara Korzeniowskiego / TELSTER, NIE TOM-ART. Nie używać."
-    },
-    {
-      "id": "photo_6",
-      "filename": "photo-6.jpg",
-      "content": "Reklama firmy FIXMAN — Remonty, Wykończenia, Drobne Naprawy. Tel. 739 437 828, NIP: 8652363112, mail: wojtek580@yahoo.com. Żółty van.",
-      "technical_quality": "good",
-      "usability": {
-        "recommended_for": [],
-        "mood": "N/A"
-      },
-      "relevant": false,
-      "note": "INNA FIRMA — reklama Fixman, NIE TOM-ART. Nie używać."
-    },
-    {
-      "id": "photo_7",
-      "filename": "photo-7.jpg",
-      "content": "Nowoczesny dom jednorodzinny — elewacja biało-grafitowa z pionowym blachą, duże przeszklenia, drewniana altana/wiata. Nowoczesna architektura.",
-      "technical_quality": "good",
-      "usability": {
-        "recommended_for": ["hero", "galeria", "realizacje"],
-        "mood": "nowoczesność, prestiż, jakość"
-      },
-      "relevant": true
-    },
-    {
-      "id": "photo_8",
-      "filename": "photo-8.jpg",
-      "content": "Dom jednorodzinny po remoncie elewacji — biało-szara elewacja z drewnianymi panelami, nowy dach, rusztowanie jeszcze stoi. Widoczna transformacja budynku.",
-      "technical_quality": "medium",
-      "usability": {
-        "recommended_for": ["galeria", "realizacje", "before_after"],
-        "mood": "transformacja, efekt pracy"
-      },
-      "relevant": true
+      "type": "implied",
+      "proof": "Serwisy samochodowe = olej, opony, podnośniki = wymagania techniczne",
+      "uniqueness": "Wymaga wiedzy o płytkach przemysłowych"
     }
   ],
 
   "business_profile": {
-    "identity_statement": "Młoda ale nagrodzona firma wykończeniowa z artystycznym podejściem, specjalizująca się w kompleksowych pracach budowlanych i wykończeniowych w okolicach Krosna Odrzańskiego",
-    "key_strengths": ["nagroda branżowa", "kompleksowość usług", "artystyczne podejście", "lokalność"],
-    "personality_traits": ["artystyczny", "solidny", "wszechstronny", "lokalny"],
-    "customer_type": "właściciele domów jednorodzinnych w Krosnie Odrzańskim i okolicach, osoby budujące lub remontujące",
-    "business_stage": "early — działalność od 10.2023, ale już z nagrodą branżową"
+    "identity_statement": "Glazurnik specjalizujący się w posadzkach przemysłowych i komercyjnych — hale, serwisy samochodowe, showroomy",
+    "key_strengths": ["specjalizacja przemysłowa", "duże powierzchnie", "klienci B2B"],
+    "personality_traits": ["konkretny", "profesjonalny", "techniczny"],
+    "customer_type": "B2B (dealerzy samochodowi, właściciele hal, deweloperzy)",
+    "market_position": "niszowy specjalista - premium B2B"
   },
 
   "tone_recommendation": {
-    "style": "przyjazny_fachowiec",
-    "description": "Ciepły fachowiec który kocha swoją robotę. Mówi prosto ale z pasją do detali. Nie nachalny marketingowo — niech robota mówi sama za siebie, nagroda potwierdza.",
-    "warmth_level": 4,
-    "formality_level": 2,
+    "style": "konkretny_techniczny",
+    "description": "Ton rzeczowy, techniczny, bez lania wody. Klient B2B szuka fachowca który rozumie wymagania przemysłowe.",
+    "warmth_level": 2,
+    "formality_level": 3,
     "characteristics": [
-      "Bezpośredni, osobisty — 'ja' nie 'my'",
-      "Konkretne usługi zamiast marketingowego bełkotu",
-      "Nagroda jako naturalny punkt odniesienia, nie chwalenie się",
-      "Lokalne zakorzenienie — 'tu mieszkam, tu pracuję'"
+      "Konkretne liczby (m², czas)",
+      "Techniczne szczegóły (odporność, obciążenia)",
+      "Bez 'pasji' i 'marzeń' - to B2B",
+      "Referencje obiektowe"
     ],
     "example_headlines": [
-      "Laureat Orłów Branży Budowlanej 2024.",
-      "Wykończenia z wyczuciem. Krosno Odrzańskie.",
-      "Od tynków po instalacje. Jeden wykonawca."
+      "Posadzki przemysłowe. Nie łazienki. Zielona Góra.",
+      "Hale, serwisy, showroomy. 500 m² to standard.",
+      "Płytki które wytrzymają podnośnik i olej."
     ],
-    "words_to_use": ["wykonam", "zadbam", "z wyczuciem", "solidnie", "na czysto", "terminowo", "doradzę"],
-    "words_to_avoid": ["kompleksowe rozwiązania", "innowacyjny", "najwyższa jakość", "profesjonalny zespół", "indywidualne podejście", "pasja"]
+    "words_to_use": ["posadzki przemysłowe", "hale", "serwisy", "m²", "odporność", "obciążenia"],
+    "words_to_avoid": ["łazienki", "pasja", "marzenia", "kompleksowo", "indywidualne podejście"]
   },
 
   "design_recommendation": {
-    "direction": "WARM",
-    "confidence": "medium-high",
+    "direction": "INDUSTRIAL",
+    "confidence": "high",
     "reasoning": [
-      "Firma jednoosobowa z osobistym kontaktem → WARM",
-      "Nazwa TOM-ART → artystyczny element → ciepłe kolory logo",
-      "B2C klienci indywidualni w małym mieście → WARM over INDUSTRIAL",
-      "Nagroda daje autorytet bez potrzeby PREMIUM estetyki",
-      "Logo ma ciepłe, artystyczne kolory (akwarela)"
+      "Specjalizacja przemysłowa = estetyka industrialna",
+      "Klienci B2B = profesjonalny, rzeczowy wygląd",
+      "Zdjęcia: szare płytki, stal, beton = paleta industrialna"
     ],
-    "alternative": {
-      "direction": "CLEAN",
-      "when": "Jeśli klient chce bardziej profesjonalny wygląd"
-    },
-    "color_source": "logo + artystyczny branding",
     "suggested_palette": {
-      "primary": "#1B2A4A",
-      "primary_light": "#2D4A7A",
-      "accent": "#C41E3A",
-      "accent_light": "#E8384F",
-      "bg": "#FAFAFA",
-      "bg_alt": "#F0F0F0",
-      "text": "#1A1A1A",
-      "text_muted": "#6B7280",
-      "warm_accent": "#FFD700"
+      "primary": "#374151",
+      "primary_dark": "#1F2937",
+      "accent": "#F59E0B",
+      "bg": "#F9FAFB",
+      "bg_alt": "#F3F4F6",
+      "text": "#111827",
+      "text_muted": "#6B7280"
     }
+  },
+
+  "uniqueness_analysis": {
+    "tier": 2,
+    "tier_name": "visible_specialization",
+    "confidence": "high",
+
+    "tier_1_check": {
+      "found": false,
+      "checked": ["nagrody", "certyfikaty", "opinie 5.0"],
+      "notes": "Brak opinii, brak certyfikatów"
+    },
+
+    "tier_2_check": {
+      "found": true,
+      "type": "photo_specialization",
+      "evidence": [
+        "4/4 zdjęć to obiekty przemysłowe/komercyjne",
+        "0 zdjęć łazienek/mieszkań",
+        "Hale, serwisy samochodowe, showroomy",
+        "Duże powierzchnie (500-1000+ m²)",
+        "KONTRAST z typowym glazurnikiem (łazienki)"
+      ],
+      "suggested_hook": "Posadzki przemysłowe. Nie łazienki. Zielona Góra."
+    },
+
+    "tier_3_check": {
+      "found": false,
+      "notes": "Brak danych o procesie"
+    },
+
+    "tier_4_fallback": {
+      "needed": true,
+      "where": "sekcja Opinie i FAQ",
+      "weaknesses_to_address": ["brak_opinii"],
+      "honest_selling_hook": "Realizacje mówią. Zadzwoń, pokażę więcej."
+    },
+
+    "recommended_hook": {
+      "main": "Posadzki przemysłowe. Nie łazienki. Zielona Góra.",
+      "alternative_1": "Hale, serwisy, showroomy. 500 m² to standard.",
+      "alternative_2": "Typowy glazurnik robi łazienki. Ja robię hale.",
+      "avoid": [
+        "Profesjonalny glazurnik",
+        "Kompleksowe usługi glazurnicze",
+        "Układanie płytek Zielona Góra"
+      ]
+    },
+
+    "hooks_to_avoid": [
+      "Profesjonalne układanie płytek",
+      "Kompleksowe usługi",
+      "Glazurnik z pasją",
+      "Indywidualne podejście"
+    ]
   },
 
   "sections_recommendation": [
     {
       "id": 1,
       "name": "Hero",
-      "purpose": "Pierwsze wrażenie — nagroda jako hook + CTA",
-      "content_notes": "Laureat Orłów 2024 + 8.9/10 rating + CTA telefon",
-      "photo_need": "photo-7.jpg (nowoczesny dom) lub photo-1.jpg (elegancki dom)"
+      "purpose": "Tier 2 hook - specjalizacja przemysłowa",
+      "content_notes": "Od razu pozycjonowanie: NIE łazienki",
+      "photo_need": "hala lub salon samochodowy"
     },
     {
       "id": 2,
-      "name": "O firmie / Dlaczego ja",
-      "purpose": "Budowanie zaufania — HOOK nagroda, nie 'Jestem Tomasz'",
-      "content_notes": "START od Orłów 2024, potem artystyczne podejście, zakres, lokalność",
-      "photo_need": "brak zdjęcia właściciela — użyć realizacji"
+      "name": "Problem → Rozwiązanie",
+      "purpose": "Dlaczego nie każdy glazurnik",
+      "content_notes": "500 m² to inna liga niż łazienka 4 m²"
     },
     {
       "id": 3,
-      "name": "Usługi",
-      "purpose": "Pokazanie zakresu oferty",
-      "content_notes": "4-5 głównych kategorii: wykończenia wnętrz, elewacje, tynki, malowanie, instalacje",
-      "photo_need": "photo-4.jpg (wnętrze), photo-8.jpg (elewacja)"
+      "name": "Specjalizacja",
+      "purpose": "Co robimy (i czego NIE)",
+      "content_notes": "Hale, serwisy, showroomy. NIE: łazienki, mieszkania"
     },
     {
       "id": 4,
-      "name": "Realizacje / Galeria",
-      "purpose": "Social proof wizualny",
-      "content_notes": "6 zdjęć (bez photo-5 i photo-6!), opisy z metrażem jeśli znany",
-      "photo_need": "photo-1, photo-4, photo-7, photo-8 + ewentualnie photo-3"
+      "name": "Realizacje",
+      "purpose": "Portfolio przemysłowe",
+      "content_notes": "4 zdjęcia z opisami technicznymi",
+      "photo_need": "wszystkie 4 zdjęcia"
     },
     {
       "id": 5,
-      "name": "Dlaczego TOM-ART",
-      "purpose": "USP — wyróżniki",
-      "content_notes": "3-4 USP: nagroda, rating, kompleksowość, artyzm",
-      "photo_need": "ikony"
+      "name": "Dlaczego przemysłowe",
+      "purpose": "USP techniczne",
+      "content_notes": "Odporność, obciążenia, duże powierzchnie"
     },
     {
       "id": 6,
       "name": "FAQ",
-      "purpose": "SEO + obiekcje",
-      "content_notes": "5-6 pytań o zakres, cenę, termin, gwarancję, obszar działania",
-      "photo_need": "brak"
+      "purpose": "Obiekcje B2B + honest selling (brak opinii)",
+      "content_notes": "Pytanie o referencje z honest selling"
     },
     {
       "id": 7,
-      "name": "Kontakt + CTA",
-      "purpose": "Konwersja",
-      "content_notes": "Telefon 514 432 142, adres, formularz wyceny",
-      "photo_need": "subtle background"
+      "name": "Kontakt",
+      "purpose": "CTA B2B",
+      "content_notes": "Telefon + adres"
     }
   ],
 
   "warnings": [
-    "Brak treści tekstowych opinii — content będzie miał słabsze cytaty",
-    "Logo mówi 'Tomasz Wszołek' ale CEIDG mówi 'Tomasz Duda' — potencjalna rozbieżność do wyjaśnienia",
-    "2 z 8 zdjęć należą do INNYCH firm (photo-5: TELSTER, photo-6: FIXMAN) — nie używać",
-    "photo-3 wygląda na rendering/stock — może nie być autentyczną realizacją",
-    "Firma bardzo młoda (od 10.2023) — nie podkreślać stażu, podkreślać nagrodę",
-    "Brak zdjęcia właściciela — sekcja O mnie słabsza wizualnie"
+    "BRAK OPINII — honest selling wymagany w FAQ",
+    "Brak imienia właściciela — personalizacja ograniczona",
+    "Brak email — tylko telefon jako kontakt",
+    "Brak lat działalności — nie używać 'doświadczenie' bez konkretów"
   ],
 
-  "confidence_score": 0.72,
-  "confidence_note": "Obniżona pewność z powodu: braku opinii tekstowych, rozbieżności w logo, młodej firmy. Nagroda Orły 2024 jest silnym kompensatorem."
+  "confidence_score": 0.82,
+
+  "REASONING": {
+    "uniqueness_tier": {
+      "chosen": 2,
+      "why": "Zdjęcia pokazują WYRAŹNĄ specjalizację przemysłową. 4/4 zdjęć to hale/serwisy/showroomy. 0 łazienek. To jest unikalny kąt który wyróżnia od 95% glazurników."
+    },
+    "hook_strategy": {
+      "approach": "KONTRAST",
+      "why": "Pozycjonowanie przez negację: 'Nie łazienki' natychmiast wyróżnia. Klient B2B szukający glazurnika do hali od razu wie że trafił."
+    },
+    "honest_selling": {
+      "needed": true,
+      "where": "FAQ pytanie o referencje/opinie",
+      "approach": "Realizacje mówią same za siebie. Zadzwoń, pokażę więcej zdjęć."
+    }
+  }
 }

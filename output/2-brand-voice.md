@@ -1,128 +1,158 @@
-# Brand Voice — TOM-ART Tomasz Duda
+# GLAZURNIK — Brand Voice Guide
 
-## Projekt: tom-art-krosno
-## Data: 2026-01-26
-## Na podstawie: 1-analysis.json
-
----
-
-## 1. Voice Characteristics
-
-### Archetyp: Przyjazny Fachowiec z Artystycznym Okiem
-
-TOM-ART to nie zwykla firma remontowa. Nazwa sama w sobie laczy solidne rzemioslo (TOM) z wyczuciem estetycznym (ART). Glos marki odzwierciedla to polaczenie: **konkretny i rzeczowy jak fachowiec, ale z wrażliwością na detal i estetykę**.
-
-### Ton glowny:
-- **Cieplo**: 4/5 — osobisty, bezposredni, ludzki
-- **Formalnosc**: 2/5 — potoczny ale nie slangowy, "mow do mnie normalnie"
-- **Pewnosc siebie**: 4/5 — nagroda branżowa daje autorytet, nie musi udowadniać
-- **Eksperckość**: 3/5 — wie co robi, ale nie pouczający
-
-### Glos w jednym zdaniu:
-> "Fachowiec ktory widzi wiecej niz sciane do pomalowania — widzi Twoj przyszly dom."
+**Wygenerowano:** 2026-02-03
+**Projekt:** glazura
+**Direction:** INDUSTRIAL
+**Uniqueness Tier:** 2 (Visible Specialization)
 
 ---
 
-## 2. Writing Style
+## 🎯 POSITIONING STATEMENT
 
-### Struktura zdań:
-- Krótkie, konkretne zdania (max 15 slow)
-- Mieszanka: zdanie krotkie + zdanie srednie + zdanie krotkie
-- Unikaj zdań złożonych z 3+ przecinkami
-
-### Perspektywa:
-- **Pierwsza osoba** ("ja") — firma jednoosobowa
-- "Wykonam", "zadbam", "doradzę" — osobisty kontakt
-- NIE "oferujemy", "realizujemy", "nasz zespol"
-
-### Emocje:
-- Spokojna pewnosc siebie, nie agresywna sprzedaz
-- "Zrobilem to i efekt mowi sam za siebie" > "Jestem najlepszy!"
-- Nagroda jako naturalny fakt, nie przechwałka
+**Glazurnik to specjalista od posadzek przemysłowych i komercyjnych w Zielonej Górze — hale, serwisy samochodowe, showroomy. NIE łazienki.**
 
 ---
 
-## 3. Vocabulary
+## 🗣️ VOICE CHARACTERISTICS
 
-### UŻYWAMY (brand words):
-| Slowo | Kontekst | Dlaczego |
-|-------|----------|----------|
-| z wyczuciem | Opis pracy | Artystyczny element nazwy TOM-ART |
-| solidnie | Efekty pracy | Budowlany, konkretny |
-| na czysto | Po zakonczeniu | Szacunek do klienta |
-| doradze | Kontakt | Osobisty, bezposredni |
-| wykonam | Obietnica | JDG, osobiste zaangazowanie |
-| z dbałością o detal | Jakosc | Lacznik miedzy ART i budownictwa |
-| nagrodzony | Trust signal | Orly Branzy Budowlanej 2024 |
-| od A do Z | Zakres | Kompleksowa wykonczeniowka |
+### Ton: Konkretny Techniczny
 
-### UNIKAMY (banned words):
-| Slowo | Dlaczego | Zamiennik |
-|-------|----------|-----------|
-| kompleksowe rozwiazania | Korporacyjny bełkot | "od tynkow po instalacje" |
-| innowacyjny | Nie pasuje do wykonczeniowki | "z nowoczesnym podejsciem" |
-| najwyzsza jakosc | Puste marketingowe | "nagrodzony Orlami 2024" |
-| profesjonalny zespol | Firma jednoosobowa | "wykonam osobiscie" |
-| indywidualne podejscie | Kazdy to pisze | "doradze co bedzie najlepsze" |
-| pasja | AI slop | "rzemioslo z wyczuciem" |
-| kompleksowa obsluga | Wyswiechtane | "wszystko pod jednym dachem" |
-| szeroka gama | Marketingowy belkot | konkretne uslugi |
+| Wymiar | Poziom | Opis |
+|--------|--------|------|
+| **Warmth** | 2/5 | Rzeczowy, bez lania wody |
+| **Formality** | 3/5 | Profesjonalny B2B |
+| **Confidence** | 4/5 | Portfolio przemysłowe mówi samo |
+| **Technical** | 4/5 | Metraże, odporność, specyfikacje |
+
+### Charakterystyka głosu:
+
+1. **Kontrast z typowym glazurnikiem** — "Nie łazienki" to nasz wyróżnik
+2. **Liczby i metraże** — 500 m², 800 m², nie "duże powierzchnie"
+3. **Techniczne szczegóły** — odporność na olej, obciążenia, podnośniki
+4. **B2B język** — dealerzy, hale, deweloperzy, nie "klienci"
 
 ---
 
-## 4. Tone Variations
+## ✅ SŁOWNICTWO — UŻYWAMY
 
-### Hero / Naglowek:
-- Mocny, krotki, z hookiem nagrody
-- Przyklad: "Laureat Orlow Branzy Budowlanej 2024. Wykonczenia z wyczuciem."
+```
+posadzki przemysłowe, hale, serwisy samochodowe, showroomy,
+dealerzy, powierzchnia, m², odporność, obciążenia,
+płytki przemysłowe, gresite, duży format,
+realizacje, obiekty, Zielona Góra
+```
 
-### O mnie:
-- Osobisty, ciepły, z autorytetem nagrody
-- HOOK: zaczynaj od nagrody lub artystycznego podejscia, NIE od "Jestem Tomasz"
-- Przyklad: "Orly Branzy Budowlanej 2024 to wyroznienie, ktore potwierdza to, co moi klienci mowia od lat..."
+### Frazy do użycia:
 
-### Uslugi:
-- Konkretny, rzeczowy, z korzyściami
-- Przyklad: "Tynki maszynowe i reczne. Gladz gipsowa. Rowna powierzchnia to podstawa kazdego wykonczenia."
-
-### FAQ:
-- Ludzki, bezposredni, jak rozmowa przy kawie
-- Przyklad: "Ile kosztuje remont mieszkania? Wycena zalezy od zakresu. Zadzwon — porozmawiamy konkretnie."
-
-### CTA:
-- Prosty, bezposredni
-- Przyklad: "Zadzwon: 514 432 142. Porozmawiajmy o Twoim remoncie."
+- "Posadzki przemysłowe, nie łazienki"
+- "500 m² to standard"
+- "Hale, serwisy, showroomy"
+- "Płytki które wytrzymają podnośnik"
+- "Realizacje mówią"
+- "Typowy glazurnik robi łazienki. Ja robię hale."
 
 ---
 
-## 5. Key Messages
+## ❌ SŁOWNICTWO — UNIKAMY
 
-### Message #1 — Trust (Primary):
-> "Laureat Orlow Branzy Budowlanej 2024. Ocena 8.9/10 od klientow."
+```
+łazienki, mieszkania, pasja, marzenia, kompleksowo,
+indywidualne podejście, najwyższa jakość,
+wieloletnie doświadczenie (nie mamy danych),
+profesjonalny glazurnik (generyczne)
+```
 
-### Message #2 — Differentiator:
-> "Wykonczenia z wyczuciem. Nie tylko remont — efekt, ktory cieszy oczy."
+### Dlaczego unikamy:
 
-### Message #3 — Convenience:
-> "Od tynkow po instalacje. Jeden wykonawca zamiast pieciu."
-
-### Message #4 — Local:
-> "Krosno Odrzanskie i okolice. Lokalna firma, lokalna odpowiedzialnosc."
+| Słowo | Problem |
+|-------|---------|
+| "łazienki" | To NIE nasza specjalizacja — pozycjonujemy się przeciw |
+| "pasja" | B2B nie kupuje pasji, kupuje wyniki |
+| "kompleksowo" | Marketing slop |
+| "doświadczenie" | Nie mamy danych o latach działalności |
 
 ---
 
-## 6. Do / Don't Quick Reference
+## 📝 PRZYKŁADY TEKSTU
 
-### DO:
-- Zacznij od nagrody lub pytania — NIE od imienia
-- Uzywaj liczb: 8.9/10, 15 opinii, 2024
-- Mow "ja" nie "my"
-- Podkreslaj artystyczne podejscie (TOM-ART)
-- Dawaj konkrety uslug (tynki, posadzki, elewacje)
+### ✅ DOBRZE:
 
-### DON'T:
-- Nie zaczynaj od "Jestem Tomasz Duda" (ANTY-WZORZEC!)
-- Nie pisz "kompleksowe rozwiazania"
-- Nie obiecuj "najwyzszej jakosci" — niech nagroda mowi za siebie
-- Nie uzywaj korporacyjnego jezyka
-- Nie pisz dlugich blokow tekstu (max 3-4 zdania w akapicie)
+> "Typowy glazurnik robi łazienki. Ja robię hale przemysłowe i serwisy samochodowe. 500 m² płytek które muszą wytrzymać podnośnik, olej i codzienne użytkowanie."
+
+> "Salon samochodowy to nie łazienka 4 m². To 800 m² posadzki która musi wyglądać i działać przez lata."
+
+> "Zadzwoń, pokażę realizacje. Hale w Zielonej Górze i okolicach."
+
+### ❌ ŹLE:
+
+> "Jestem glazurnikiem z pasją do układania płytek."
+(Pasja = B2C język, nie B2B)
+
+> "Oferuję kompleksowe usługi glazurnicze najwyższej jakości."
+(Marketing slop, generyczne)
+
+> "Wieloletnie doświadczenie w branży."
+(Nie mamy danych — kłamstwo)
+
+---
+
+## 🎨 MEMORABLE LINES (Tier 2)
+
+| Kontekst | Memorable Line |
+|----------|----------------|
+| **Hero** | "Posadzki przemysłowe. Nie łazienki. Zielona Góra." |
+| **Problem** | "Typowy glazurnik robi łazienki. Ja robię hale." |
+| **Skala** | "500 m² to standard. Łazienka 4 m² to nie moja liga." |
+| **Technika** | "Płytki które wytrzymają podnośnik, olej i 10 lat użytkowania." |
+| **Honest Selling** | "Opinii jeszcze nie mam. Ale realizacje mówią same." |
+| **CTA** | "Zadzwoń. Pokażę więcej zdjęć niż zmieści się na stronie." |
+
+---
+
+## 👥 PERSONA KLIENTA
+
+### Primary: Właściciele/zarządcy obiektów przemysłowych (B2B)
+- Szukają: glazurnika który rozumie wymagania przemysłowe
+- Obawy: "czy da radę z taką powierzchnią?", "czy płytki wytrzymają?"
+- Trigger: portfolio przemysłowe, realizacje podobnych obiektów
+
+### Secondary: Dealerzy samochodowi (B2B)
+- Szukają: estetyki + wytrzymałości
+- Obawy: wygląd showroomu vs trwałość w serwisie
+- Trigger: zdjęcia salonów samochodowych
+
+### NOT our customer:
+- Osoby prywatne szukające glazurnika do łazienki
+- To OK — pozycjonujemy się jako specjalista przemysłowy
+
+---
+
+## 📊 TONE VARIATIONS
+
+| Sekcja | Ton | Przykład |
+|--------|-----|----------|
+| **Hero** | Kontrastowy, pewny | "Posadzki przemysłowe. Nie łazienki." |
+| **Problem** | Edukacyjny | "Hala to inna liga niż łazienka." |
+| **Realizacje** | Techniczny | "Serwis samochodowy, 600 m², płytki przemysłowe." |
+| **FAQ** | Rzeczowy + honest | "Opinii jeszcze nie mam. Realizacje mówią." |
+| **Kontakt** | Bezpośredni | "Zadzwoń: 510 625 088" |
+
+---
+
+## ⚡ QUICK REFERENCE
+
+**Pisz jakbyś był:**
+- Fachowcem od dużych powierzchni przemysłowych
+- Który wie że łazienki to nie jego liga
+- I nie musi udowadniać "pasji" — zdjęcia hal mówią same
+
+**NIE pisz jakbyś był:**
+- Typowym glazurnikiem od łazienek
+- Startupem z "pasją i marzeniami"
+- Firmą która "oferuje kompleksowe usługi"
+
+---
+
+*Brand Voice Guide v1.0*
+*Projekt: glazura*
+*Uniqueness Tier: 2 (Visible Specialization)*
