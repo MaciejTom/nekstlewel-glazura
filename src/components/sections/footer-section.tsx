@@ -1,31 +1,30 @@
 "use client";
 
-import Image from "next/image";
 import { siteConfig, navItems } from "@/lib/content";
-import { IconCall, IconMail } from "@/components/ui/icons";
+import { Phone, MapPin } from "lucide-react";
 
 const s = {
-  footer: "bg-card border-t border-border",
+  footer: "bg-primary text-primary-foreground",
   container: "container mx-auto px-6",
 
-  // Main grid - compact single row on desktop
-  main: "py-8 md:py-10 flex flex-col md:flex-row items-center justify-between gap-6",
+  // Main grid
+  main: "py-10 md:py-12 flex flex-col md:flex-row items-center justify-between gap-8",
 
-  // Logo - minimal
-  logo: "flex items-center gap-2 group",
-  logoImage: "relative w-12 h-12",
+  // Logo/Brand
+  brand: "text-center md:text-left",
+  brandName: "text-2xl font-bold",
+  brandTagline: "text-sm text-primary-foreground/70 mt-1",
 
-  // Nav - horizontal, subtle
+  // Nav
   nav: "flex flex-wrap justify-center gap-6",
-  navLink: "text-sm text-muted-foreground hover:text-primary transition-colors",
+  navLink: "text-sm text-primary-foreground/80 hover:text-accent transition-colors",
 
-  // Contact inline
-  contact: "flex items-center gap-4 text-sm",
-  contactLink: "flex items-center gap-1.5 text-muted-foreground hover:text-primary transition-colors",
-  contactIcon: "text-primary text-base",
+  // Contact
+  contact: "flex flex-col sm:flex-row items-center gap-4 text-sm",
+  contactLink: "flex items-center gap-2 text-primary-foreground/80 hover:text-accent transition-colors",
 
-  // Bottom bar - copyright
-  bottom: "py-4 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted-foreground",
+  // Bottom bar
+  bottom: "py-4 border-t border-primary-foreground/10 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-primary-foreground/60",
 };
 
 export function FooterSection() {
@@ -36,17 +35,11 @@ export function FooterSection() {
       <div className={s.container}>
         {/* Main Row */}
         <div className={s.main}>
-          {/* Logo */}
-          <a href="/" className={s.logo}>
-            <div className={s.logoImage}>
-              <Image
-                src="/logo.png"
-                alt={siteConfig.name}
-                fill
-                className="object-contain"
-              />
-            </div>
-          </a>
+          {/* Brand */}
+          <div className={s.brand}>
+            <div className={s.brandName}>{siteConfig.name}</div>
+            <div className={s.brandTagline}>Posadzki przemysłowe</div>
+          </div>
 
           {/* Navigation */}
           <nav className={s.nav}>
@@ -60,20 +53,20 @@ export function FooterSection() {
           {/* Contact */}
           <div className={s.contact}>
             <a href={siteConfig.phoneHref} className={s.contactLink}>
-              <IconCall className="w-4 h-4 text-primary" />
+              <Phone className="w-4 h-4" />
               {siteConfig.phone}
             </a>
-            <a href={`mailto:${siteConfig.email}`} className={s.contactLink}>
-              <IconMail className="w-4 h-4 text-primary" />
-              {siteConfig.email}
-            </a>
+            <span className={s.contactLink}>
+              <MapPin className="w-4 h-4" />
+              Zielona Góra
+            </span>
           </div>
         </div>
 
         {/* Bottom */}
         <div className={s.bottom}>
-          <span>&copy; {year} {siteConfig.name} · {siteConfig.owner}</span>
-          <span>{siteConfig.address} · NIP: {siteConfig.nip}</span>
+          <span>&copy; {year} {siteConfig.name}</span>
+          <span>{siteConfig.address}</span>
         </div>
       </div>
     </footer>

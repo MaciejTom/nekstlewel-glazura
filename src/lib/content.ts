@@ -1,26 +1,26 @@
-// MAL-CER Content Data
-// Generated from newContent.md
+// GLAZURNIK Content Data
+// Generated from output/4-content.md
 
 export const siteConfig = {
-  name: "MAL-CER",
-  owner: "Cezary Żelazowski",
-  phone: "782 068 013",
-  phoneHref: "tel:+48782068013",
-  email: "malcer123@op.pl",
-  address: "Szyby 26, 27-400 Ostrowiec Świętokrzyski",
-  nip: "PL 6612071885",
-  area: "Ostrowiec Świętokrzyski i okolice, woj. świętokrzyskie",
+  name: "Glazurnik",
+  owner: null,
+  phone: "510 625 088",
+  phoneHref: "tel:+48510625088",
+  email: null,
+  address: "Różana 5e1, 66-016 Zielona Góra",
+  nip: null,
+  area: "Zielona Góra i okolice, woj. lubuskie",
 };
 
 export const heroContent = {
-  headline: "Remont bez szukania pięciu wykonawców.",
-  headlineAccent: "Ostrowiec i okolice.",
+  headline: "Posadzki przemysłowe.",
+  headlineAccent: "Zielona Góra.",
   subheadline:
-    "Elewacje, wykończenia wnętrz, budowa domów. Jeden człowiek od pierwszej rozmowy do odbioru. Cezary Żelazowski, MAL-CER.",
-  memorable: "Jeden wykonawca. Jedna odpowiedzialność. Zero 'to nie moja działka'.",
+    "Hale magazynowe, serwisy samochodowe, showroomy. Płytki które wytrzymają podnośnik, olej i lata codziennego użytkowania. 500 m² to standard.",
+  memorable: "Hale, serwisy, showroomy — to moja specjalność.",
   ctaPrimary: {
     label: "Zadzwoń",
-    phone: "782 068 013",
+    phone: "510 625 088",
   },
   ctaSecondary: {
     label: "Zobacz realizacje",
@@ -29,244 +29,237 @@ export const heroContent = {
 };
 
 export const problemContent = {
-  headline: "Znasz to uczucie?",
+  headline: "Duże powierzchnie wymagają doświadczenia",
   paragraphs: [
-    "Tynkarz mówi że to wina elektryka. Elektryk że hydraulika. A Ty stoisz w środku mieszkania bez podłogi i z trzema fakturami za 'konsultacje'. Każdy robi swoje — nikt nie odpowiada za całość.",
-    "Robię remonty inaczej. Od fundamentu po ostatni kolor na ścianie — jeden wykonawca. Nie szukasz trzech ekip. Nie tłumaczysz tego samego trzy razy. Dzwonisz do mnie, ja koordynuję, ja odpowiadam za efekt.",
+    "Szukasz glazurnika do obiektu przemysłowego? I słyszysz: \"Nigdy nie robiłem takiej powierzchni\" albo \"To chyba za duże na mnie\".",
+    "Specjalizuję się w obiektach przemysłowych i komercyjnych. Hale magazynowe, serwisy samochodowe, salony dealerskie, showroomy.",
+    "Płytki przemysłowe mają inne wymagania. Inne kleje, inna technika. Posadzka w serwisie samochodowym musi wytrzymać podnośniki hydrauliczne, olej, płyny eksploatacyjne i codzienne użytkowanie przez lata.",
   ],
-  memorable: "Nie wyceniam przez telefon. Bo to zawsze kłamstwo. Przyjadę, obejrzę, wtedy powiem ile.",
-  location: "Szyby 26 koło Ostrowca — wiesz gdzie mnie szukać.",
+  memorable: "500 m² wymaga innego podejścia niż mały remont.",
+  location: "Zielona Góra i okolice — całe lubuskie.",
 };
 
 export const servicesContent = {
-  headline: "Od elewacji po wykończenie wnętrza",
+  headline: "Moja specjalizacja",
   description:
-    "Doradzę co da się zrobić w Twoim budżecie. Nie obiecuję gruszek na wierzbie — mówię jak jest.",
+    "Robię tylko to, co umiem najlepiej — posadzki przemysłowe i komercyjne na dużych powierzchniach.",
   services: [
     {
-      id: "wykonczenia",
-      title: "Wykończenia wnętrz",
-      subtitle: "gładzie, malowanie, podłogi",
+      id: "hale",
+      title: "Hale przemysłowe i magazynowe",
+      subtitle: "od 200 m² w górę",
       description:
-        "Od surowych ścian do gotowego mieszkania. Gładzie, tynki, malowanie, panele, płytki. Jedno zlecenie, jeden wykonawca.",
+        "Posadzki na dużych powierzchniach. Płytki przemysłowe, gresite, duży format. Tam gdzie liczy się tempo i precyzja na dużej skali.",
       features: [
-        "Gładzie i tynki (równe ściany, gotowe pod malowanie)",
-        "Malowanie ścian i sufitów",
-        "Układanie paneli i płytek",
-        "Zabudowy karton-gips",
+        "Płytki przemysłowe odporne na obciążenia",
+        "Gresite i duży format",
+        "Realizacje od 200 m² w górę",
       ],
-      icon: "FormatPaint",
+      icon: "Warehouse",
     },
     {
-      id: "elewacje",
-      title: "Elewacje i fasady",
-      subtitle: "tynki, docieplenia, renowacje",
+      id: "serwisy",
+      title: "Serwisy i warsztaty samochodowe",
+      subtitle: "odporność na olej i chemię",
       description:
-        "Tynki elewacyjne, docieplenia, renowacja starszych budynków. Również zabytkowe kamienice — sztukaterie, detale, piaskowy tynk.",
+        "Płytki odporne na olej, chemię i obciążenia punktowe. Posadzki pod podnośniki hydrauliczne — 3 tony nacisku w jednym punkcie.",
       features: [
-        "Tynki elewacyjne i docieplenia",
-        "Renowacja fasad (w tym zabytkowych)",
-        "Sztukaterie i detale architektoniczne",
+        "Odporność na olej i płyny eksploatacyjne",
+        "Wytrzymałość na obciążenia punktowe",
+        "Posadzki pod podnośniki hydrauliczne",
       ],
-      icon: "Home",
+      icon: "Car",
     },
     {
-      id: "budowlane",
-      title: "Prace budowlane",
-      subtitle: "konstrukcje, dachy, stan surowy",
+      id: "showroomy",
+      title: "Salony samochodowe i showroomy",
+      subtitle: "estetyka + wytrzymałość",
       description:
-        "Od wykopu po dach. Fundamenty, ściany, konstrukcje drewniane, montaż okien. Pełny cykl budowlany.",
+        "Estetyka premium + wytrzymałość przemysłowa. Płytki które wyglądają i działają przez lata.",
       features: [
-        "Fundamenty i ściany nośne",
-        "Konstrukcje dachowe (drewno)",
-        "Montaż okien i drzwi",
-        "Stan surowy zamknięty",
+        "Wykończenie showroomowe",
+        "Wytrzymałość przemysłowa",
+        "Duże powierzchnie ekspozycyjne",
       ],
-      icon: "Construction",
+      icon: "Building2",
     },
     {
-      id: "domy",
-      title: "Budowa domów jednorodzinnych",
-      subtitle: "",
+      id: "komercyjne",
+      title: "Obiekty komercyjne",
+      subtitle: "biurowce, hale handlowe",
       description:
-        "Nowoczesne i tradycyjne domy jednorodzinne. Od projektu do klucza — jeden wykonawca na cały proces.",
+        "Biurowce, hale handlowe, przestrzenie usługowe. Duży format, nowoczesne wykończenia.",
       features: [
-        "Domy nowoczesne (duże przeszklenia, płaska elewacja)",
-        "Domy tradycyjne (cegła, dachówka)",
-        "Kompleksowa realizacja lub etapy",
+        "Biurowce i przestrzenie usługowe",
+        "Hale handlowe",
+        "Duży format płytek",
       ],
-      icon: "Villa",
+      icon: "Store",
     },
   ],
 };
 
 export const processContent = {
-  headline: "Zadzwoń — reszta to moja robota",
+  headline: "Proces",
   steps: [
     {
       number: "01",
-      title: "Rozmowa i oględziny",
+      title: "Kontakt i oględziny",
       description:
-        "Zadzwoń lub napisz. Umówimy się na oględziny — nie wyceniam na ślepo. Przyjadę, zobaczę, porozmawiamy o tym co chcesz osiągnąć.",
+        "Zadzwoń, opisz obiekt. Umówimy się na oględziny — obejrzę powierzchnię, podłoże, warunki. Nie wyceniam na ślepo.",
     },
     {
       number: "02",
-      title: "Wycena na miejscu",
+      title: "Wycena",
       description:
-        "Po oględzinach dostajesz konkretną wycenę. Nie 'od-do', nie 'zobaczymy'. Ile kosztuje, co wchodzi w zakres, ile czasu zajmie.",
+        "Po oględzinach — konkretna wycena. Ile metrów, jakie płytki, jaki czas realizacji. Bez \"widełek\" i \"orientacyjnie\".",
     },
     {
       number: "03",
       title: "Realizacja",
       description:
-        "Wchodzę z materiałami i narzędziami. Pracuję sam lub z ekipą — zależy od skali. Raportuję postępy, reaguję na zmiany.",
+        "Wchodzę z ekipą i materiałami. Na dużych powierzchniach liczy się tempo — organizuję pracę żeby skrócić przestój obiektu.",
     },
     {
       number: "04",
       title: "Odbiór",
       description:
-        "Wspólny odbiór prac. Sprawdzamy każdy szczegół. Dopiero jak Ty mówisz 'OK' — zamykamy temat.",
+        "Wspólny odbiór. Sprawdzamy całą powierzchnię. Dokumentacja dla obiektów komercyjnych.",
     },
   ],
-  memorable: "Dopiero jak Ty mówisz OK — zamykamy temat.",
+  memorable: "Nie wyceniam na ślepo. Przyjadę, obejrzę, wycenię konkretnie.",
 };
 
 export const whyUsContent = {
-  headline: "Dlaczego akurat ja?",
+  headline: "Dlaczego warto wybrać specjalistę",
   features: [
     {
-      icon: "Call",
-      title: "Dzwonisz do mnie, nie do biura",
+      icon: "Square",
+      title: "500 m² to mój standard",
       description:
-        "Nie mam sekretarki, nie mam 'działu obsługi klienta'. Dzwonisz pod mój numer, ja odbieram. Ja wyceniam, ja wykonuję, ja odpowiadam za efekt. Zero pośredników.",
-      memorable: "Dzwonisz do mnie, nie do sekretarki której nie mam.",
+        "Moja specjalność to duże powierzchnie — hale, serwisy, showroomy. Tam gdzie liczy się tempo i precyzja na dużej skali.",
+      memorable: null,
     },
     {
-      icon: "Layers",
-      title: "Jeden wykonawca od A do Z",
+      icon: "Shield",
+      title: "Płytki które wytrzymają",
       description:
-        "Elewacje, wnętrza, konstrukcje, całe domy. Nie musisz koordynować trzech firm. Jeden telefon, jedna odpowiedzialność, jedno rozliczenie na końcu.",
+        "Posadzka w serwisie samochodowym to nie to samo co mały remont. Inne kleje, inna technika układania, inne wymagania techniczne. Wiem jakich materiałów użyć żeby posadzka wytrzymała lata.",
+      memorable: "Podnośnik hydrauliczny to 3 tony w jednym punkcie. Płytka musi to znieść.",
     },
     {
-      icon: "LocationOn",
-      title: "Wiesz gdzie mnie szukać",
+      icon: "Warehouse",
+      title: "Rozumiem wymagania przemysłowe",
       description:
-        "Szyby 26, 27-400 Ostrowiec Świętokrzyski. NIP: PL 6612071885. Nie znikam po robocie — masz adres, masz NIP, masz twarz. Jak coś nie tak — wiesz gdzie przyjechać.",
-      memorable: "Mam adres, NIP i twarz — wiesz gdzie mnie szukać.",
+        "Pracuję z halami, serwisami, dealerami. Wiem że liczy się termin, że przestój kosztuje, że dokumentacja musi być. Nie uczę się na Twoim obiekcie.",
+      memorable: null,
     },
   ],
 };
 
 export const portfolioContent = {
-  headline: "Przykłady moich prac",
-  description: "",
+  headline: "Realizacje przemysłowe",
+  description: "Zdjęcia mówią więcej niż opisy. Oto co robię:",
   items: [
     {
-      id: "dom-nowoczesny",
-      title: "Dom jednorodzinny",
+      id: "hala-przemyslowa",
+      title: "Hala przemysłowa",
       description:
-        "Nowoczesny dom parterowy — jasna elewacja, ciemna stolarka, wiata garażowa. Kompleksowa realizacja od fundamentów do wykończenia.",
-      tags: ["Budowa domów"],
-      image: "/malcer-1.webp",
+        "Hala produkcyjno-magazynowa. Szare płytki przemysłowe na całej powierzchni. Odporność na wózki widłowe i ciężki sprzęt.",
+      tags: ["Hale", "500+ m²"],
+      image: "/glazura-hero.jpg",
     },
     {
-      id: "fasada-kamienicy",
-      title: "Fasada kamienicy",
+      id: "warsztat-samochodowy",
+      title: "Warsztat samochodowy",
       description:
-        "Renowacja elewacji zabytkowej kamienicy dwukondygnacyjnej. Piaskowy tynk, klasyczne sztukaterie, detale architektoniczne.",
-      tags: ["Elewacje"],
-      image: "/malcer-2.webp",
+        "Warsztat z podnośnikami hydraulicznymi. Płytki odporne na olej i obciążenia punktowe. Profesjonalne wykończenie dla serwisu.",
+      tags: ["Serwisy", "Motoryzacja"],
+      image: "/glazura-2.jpg",
     },
     {
-      id: "dom-parterowy",
-      title: "Dom parterowy",
+      id: "salon-serwis",
+      title: "Salon i serwis samochodowy",
       description:
-        "Dom parterowy z garażem i wiatą. Jasna elewacja, ciemna dachówka, estetyczne wykończenie terenu.",
-      tags: ["Budowa domów"],
-      image: "/malcer-3.webp",
+        "Duży obiekt dealerski — salon sprzedaży + zaplecze serwisowe. Płytki przemysłowe na całej powierzchni. Samochody premium, posadzka premium.",
+      tags: ["Salony", "800+ m²"],
+      image: "/glazura-3.jpg",
     },
     {
-      id: "docieplenie",
-      title: "Docieplenie budynku",
+      id: "przestrzen-komercyjna",
+      title: "Przestrzeń komercyjna",
       description:
-        "Kompleksowe docieplenie budynku wielorodzinnego. Wełna mineralna, rusztowania, profesjonalny montaż.",
-      tags: ["Elewacje"],
-      image: "/malcer-4.webp",
-    },
-    {
-      id: "remont-wnetrza",
-      title: "Remont wnętrza",
-      description:
-        "Generalny remont starego budynku. Wymiana stropów, instalacji, przygotowanie pod wykończenie.",
-      tags: ["Wykończenia"],
-      image: "/malcer-5.webp",
+        "Nowoczesny obiekt komercyjny. Duży format płytek, szklane ściany, oświetlenie LED. Wykończenie showroomowe.",
+      tags: ["Showroomy", "Komercyjne"],
+      image: "/glazura-4.jpg",
     },
   ],
   cta: {
     label: "Chcesz podobny efekt? Zadzwoń",
-    phone: "782 068 013",
+    phone: "510 625 088",
   },
 };
 
 export const faqContent = {
-  headline: "Pytania i odpowiedzi",
+  headline: "Pytania",
   items: [
     {
-      question: "Ile kosztuje remont mieszkania?",
+      question: "Jaka jest minimalna powierzchnia zlecenia?",
       answer:
-        "Zależy od metrażu, stanu i zakresu prac. Nie podaję widełek 'od-do' — bo to nic nie znaczy. Przyjadę, obejrzę, wycenię konkretnie. Wtedy wiesz ile i za co.",
+        "Specjalizuję się w dużych powierzchniach — od około 100 m² w górę. Mniejsze zlecenia polecam kierować do glazurników specjalizujących się w remontach mieszkań.",
     },
     {
-      question: "Jak długo trwa remont?",
+      question: "Jakie płytki stosujesz w halach i serwisach?",
       answer:
-        "Też zależy od skali. Małe mieszkanie — 2-3 tygodnie. Dom od podstaw — kilka miesięcy. Harmonogram ustalamy przed startem i trzymam się terminów.",
+        "Płytki przemysłowe odporne na obciążenia, olej i chemię. Gresite, duży format, płytki techniczne. Dobór materiału zawsze po oględzinach — zależy od przeznaczenia obiektu.",
     },
     {
-      question: "Czy masz opinie?",
+      question: "Masz opinie / referencje?",
       answer:
-        "Jeszcze nie w Google — firma jest nowa. Ale mam adres, NIP i twarz. Nie znikam po robocie — wiesz gdzie mnie szukać. Zadzwoń, porozmawiamy, zobaczysz jak pracuję.",
+        "Opinii w Google jeszcze nie mam. Ale mam realizacje — zdjęcia hal, serwisów, showroomów. Zadzwoń, pokażę więcej niż zmieści się na stronie.",
     },
     {
-      question: "Jaki jest Twój obszar działania?",
+      question: "Jaki obszar działania?",
       answer:
-        "Ostrowiec Świętokrzyski i okolice — okolice Szyb, całe województwo świętokrzyskie. W promieniu 40-50 km od bazy.",
+        "Zielona Góra i okolice — całe lubuskie. Dla większych obiektów dojeżdżam dalej.",
     },
     {
-      question: "Czy pracujesz sam czy z ekipą?",
+      question: "Ile trwa realizacja hali 500 m²?",
       answer:
-        "Zależy od skali zlecenia. Mniejsze prace — sam. Większe projekty — ściągam sprawdzonych ludzi. Ale zawsze ja koordynuję i odpowiadam za całość.",
+        "Zależy od podłoża i typu płytek. Orientacyjnie 2-3 tygodnie. Konkretny harmonogram po oględzinach.",
     },
     {
-      question: "Czy robisz wycenę przez telefon?",
+      question: "Czy wystawiasz faktury?",
       answer:
-        "Nie. Nie wyceniam na ślepo — bo to zawsze kłamstwo. Przyjadę, obejrzę, wtedy powiem konkretnie ile. Tak uczciwie.",
+        "Tak. Pracuję z firmami — faktura VAT, dokumentacja dla obiektów.",
     },
   ],
 };
 
 export const contactContent = {
-  headline: "Zadzwoń do Cezarego",
+  headline: "Zadzwoń",
   description:
-    "Nie czekaj na formularz. Zadzwoń, porozmawiamy. Reszta to moja robota.",
+    "Masz halę, serwis, showroom? Opisz obiekt i powierzchnię. Umówimy się na oględziny. Reszta to moja robota.",
   details: {
-    phone: "782 068 013",
-    email: "malcer123@op.pl",
-    address: "Szyby 26, 27-400 Ostrowiec Świętokrzyski",
-    nip: "PL 6612071885",
+    phone: "510 625 088",
+    email: null,
+    address: "Różana 5e1, 66-016 Zielona Góra",
+    nip: null,
   },
-  area: "Ostrowiec Świętokrzyski i okolice, woj. świętokrzyskie.",
+  area: "Zielona Góra i okolice, całe lubuskie.",
+  hours: "do 16:00",
   cta: {
-    headline: "Masz pytanie? Zadzwoń.",
-    description: "Nie czekaj na formularz. Zadzwoń, porozmawiamy.",
-    buttonLabel: "Zadzwoń teraz: 782 068 013",
+    headline: "Masz halę, serwis, showroom?",
+    description: "Zadzwoń, umówimy się na oględziny.",
+    buttonLabel: "Zadzwoń: 510 625 088",
   },
-  memorable: "Zadzwoń. Reszta to moja robota.",
+  memorable: "Hala, serwis, showroom — zadzwoń, wycenię.",
 };
 
 // Navigation items
 export const navItems = [
-  { label: "Usługi", href: "#uslugi" },
-  { label: "Jak pracuję", href: "#proces" },
+  { label: "Specjalizacja", href: "#uslugi" },
+  { label: "Proces", href: "#proces" },
   { label: "Dlaczego ja", href: "#dlaczego" },
   { label: "Realizacje", href: "#realizacje" },
   { label: "FAQ", href: "#faq" },

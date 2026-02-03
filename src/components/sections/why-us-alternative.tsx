@@ -1,29 +1,17 @@
 "use client";
 
-import Image from "next/image";
-import { IconCall } from "@/components/ui/icons";
+import { whyUsContent, siteConfig } from "@/lib/content";
+import { Phone, Square, Shield, Warehouse } from "lucide-react";
 
-const reasons = [
-  {
-    title: "DZWONISZ DO MNIE",
-    description: "Nie mam sekretarki, nie mam 'działu obsługi klienta'. Dzwonisz pod mój numer, ja odbieram. Ja wyceniam, ja wykonuję, ja odpowiadam za efekt.",
-    image: "/icon-phone.png",
-  },
-  {
-    title: "JEDEN WYKONAWCA",
-    description: "Elewacje, wnętrza, konstrukcje, całe domy. Nie musisz koordynować trzech firm. Jeden telefon, jedna odpowiedzialność, jedno rozliczenie.",
-    image: "/icon-layers.png",
-  },
-  {
-    title: "WIESZ GDZIE SZUKAĆ",
-    description: "Szyby 26, Ostrowiec Świętokrzyski. NIP: PL 6612071885. Nie znikam po robocie — masz adres, masz NIP, masz twarz.",
-    image: "/icon-location.png",
-  },
-];
+const iconMap: Record<string, React.ReactNode> = {
+  Square: <Square className="w-8 h-8 text-accent" />,
+  Shield: <Shield className="w-8 h-8 text-accent" />,
+  Warehouse: <Warehouse className="w-8 h-8 text-accent" />,
+};
 
 export function WhyUsAlternative() {
   return (
-    <section id="dlaczego" className="bg-secondary py-20 md:py-24 relative overflow-hidden">
+    <section id="dlaczego" className="bg-background py-20 md:py-24 relative overflow-hidden">
       {/* Background Grid */}
       <div
         className="absolute inset-0 z-0 opacity-[0.03]"
@@ -36,54 +24,36 @@ export function WhyUsAlternative() {
       <div className="container mx-auto px-6 relative z-10">
         {/* Header */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-primary font-heading text-sm tracking-widest uppercase mb-4 block">
-            Co mnie wyróżnia
-          </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading text-foreground mb-6 tracking-tight">
-            JEDEN WYKONAWCA.{" "}
-            <span className="text-primary">ZERO WYMÓWEK.</span>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-6 h2-bar-center">
+            {whyUsContent.headline}
           </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Nie szukasz pięciu ekip. Nie tłumaczysz tego samego trzy razy.
-            Dzwonisz do mnie, ja koordynuję, ja odpowiadam za efekt.
-          </p>
         </div>
 
         {/* 3-Column Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-          {reasons.map((item, index) => (
+          {whyUsContent.features.map((item, index) => (
             <div
               key={index}
-              className="group relative p-6 transition-all duration-300 flex flex-col items-center text-center"
+              className="group relative bg-card border border-border rounded-lg p-8 transition-all duration-300 card-hover"
             >
-              {/* Icon Container with 3D Layered Borders */}
-              <div className="relative w-[350px] h-[350px] mb-8 flex items-center justify-center">
-                {/* Glow on hover */}
-                <div className="absolute inset-0 bg-primary/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
-                {/* 3D stacked borders behind */}
-                <div className="absolute w-[320px] h-[320px] border border-primary/15 translate-x-4 translate-y-4 group-hover:border-primary/30 transition-all duration-300" />
-                <div className="absolute w-[320px] h-[320px] border border-primary/25 translate-x-2 translate-y-2 group-hover:border-primary/50 transition-all duration-300" />
-
-                {/* Main frame with image */}
-                <div className="relative w-[320px] h-[320px] border border-primary">
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    fill
-                    className="object-cover"
-                    unoptimized
-                  />
-                </div>
+              {/* Icon */}
+              <div className="w-16 h-16 bg-accent/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                {iconMap[item.icon] || <Square className="w-8 h-8 text-accent" />}
               </div>
 
-              <h3 className="font-heading text-xl md:text-2xl text-foreground mb-4 group-hover:text-primary transition-colors">
+              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors">
                 {item.title}
               </h3>
 
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                 {item.description}
               </p>
+
+              {item.memorable && (
+                <p className="text-sm text-accent font-medium border-l-2 border-accent pl-3">
+                  {item.memorable}
+                </p>
+              )}
             </div>
           ))}
         </div>
@@ -91,11 +61,11 @@ export function WhyUsAlternative() {
         {/* CTA */}
         <div className="mt-16 text-center">
           <a
-            href="tel:+48782068013"
-            className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 font-heading text-lg tracking-wide hover:bg-primary/90 transition-colors"
+            href={siteConfig.phoneHref}
+            className="inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 font-semibold text-lg rounded-md hover:bg-primary/90 transition-colors"
           >
-            <IconCall className="w-6 h-6" />
-            Zadzwoń: 782 068 013
+            <Phone className="w-6 h-6" />
+            Zadzwoń: {siteConfig.phone}
           </a>
         </div>
       </div>

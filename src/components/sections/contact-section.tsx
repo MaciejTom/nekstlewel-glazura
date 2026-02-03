@@ -1,55 +1,51 @@
 "use client";
 
 import { contactContent, siteConfig } from "@/lib/content";
-import { IconCall, IconMail, IconLocation, IconBadge, IconMap } from "@/components/ui/icons";
+import { Phone, MapPin, Clock, Map } from "lucide-react";
 
 const s = {
-  section: "bg-background section-spacing",
+  section: "bg-secondary section-spacing",
 
   container: "container mx-auto px-6",
-
-  header: "text-center max-w-3xl mx-auto mb-12",
 
   grid: "grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12",
 
   // Left side
   left: "flex flex-col",
-  headline: "font-heading text-3xl sm:text-4xl md:text-5xl text-foreground mb-4 h2-bar",
+  headline: "text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-4 h2-bar",
   description: "text-muted-foreground mb-8",
 
   contactItems: "space-y-4",
-  contactItem: "group flex items-center gap-4 p-3 -mx-3 hover:bg-card transition-colors cursor-pointer",
-  contactIcon: "w-12 h-12 bg-primary flex items-center justify-center",
-  contactIconInner: "text-primary-foreground text-xl",
+  contactItem: "group flex items-center gap-4 p-3 -mx-3 rounded-lg hover:bg-card transition-colors cursor-pointer",
+  contactIcon: "w-12 h-12 bg-accent flex items-center justify-center rounded-md",
   contactLabel: "text-xs text-muted-foreground uppercase tracking-wider",
-  contactValue: "text-lg text-foreground font-heading group-hover:text-primary transition-colors",
+  contactValue: "text-lg text-foreground font-semibold group-hover:text-primary transition-colors",
 
   area: "mt-8 pt-6 border-t border-border",
   areaLabel: "text-xs text-muted-foreground mb-2 uppercase tracking-wider flex items-center gap-2",
-  areaIcon: "text-primary text-base",
   areaValue: "text-foreground",
 
   // Right side - CTA card
   right: "",
-  rightCard: "bg-card border border-border p-6 lg:p-8 h-full",
+  rightCard: "bg-card border border-border p-6 lg:p-8 h-full rounded-lg",
 
-  ctaHeadline: "font-heading text-2xl md:text-3xl text-foreground mb-3",
+  ctaHeadline: "text-2xl md:text-3xl font-bold text-foreground mb-3",
   ctaDescription: "text-muted-foreground mb-6 text-sm",
 
   // Memorable
-  memorable: "bg-secondary border-l-4 border-primary p-4 mb-6",
-  memorableText: "text-primary font-heading text-sm tracking-wide",
+  memorable: "bg-secondary border-l-4 border-accent p-4 mb-6 rounded-r-md",
+  memorableText: "text-accent font-semibold text-sm",
 
   // Map
-  mapWrapper: "w-full h-56 lg:h-64 mb-6 border border-border overflow-hidden",
+  mapWrapper: "w-full h-56 lg:h-64 mb-6 border border-border overflow-hidden rounded-md",
   map: "w-full h-full grayscale hover:grayscale-0 transition-all duration-500",
 
-  ctaButton: "w-full inline-flex items-center justify-center gap-3 bg-primary text-primary-foreground px-6 py-4 font-heading text-lg tracking-wide hover:bg-primary/90 transition-colors",
-  ctaButtonIcon: "text-2xl",
+  ctaButton: "w-full inline-flex items-center justify-center gap-3 bg-accent text-accent-foreground px-6 py-4 font-semibold text-lg rounded-md hover:bg-accent/90 transition-colors",
 };
 
 export function ContactSection() {
-  const mapSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500!2d21.38!3d50.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDU3JzAwLjAiTiAyMcKwMjInNDguMCJF!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl&q=Szyby+26,+Ostrowiec+%C5%9Awi%C4%99tokrzyski";
+  // Zielona Góra map embed
+  const mapSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500!2d15.5!3d51.93!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDU1JzQ4LjAiTiAxNcKwMzAnMDAuMCJF!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl&q=R%C3%B3%C5%BCana+5e1,+Zielona+G%C3%B3ra";
 
   return (
     <section id="kontakt" className={s.section}>
@@ -63,7 +59,7 @@ export function ContactSection() {
             <div className={s.contactItems}>
               <a href={siteConfig.phoneHref} className={s.contactItem}>
                 <div className={s.contactIcon}>
-                  <IconCall className="w-5 h-5 text-primary-foreground" />
+                  <Phone className="w-5 h-5 text-accent-foreground" />
                 </div>
                 <div>
                   <div className={s.contactLabel}>Telefon</div>
@@ -71,19 +67,9 @@ export function ContactSection() {
                 </div>
               </a>
 
-              <a href={`mailto:${contactContent.details.email}`} className={s.contactItem}>
-                <div className={s.contactIcon}>
-                  <IconMail className="w-5 h-5 text-primary-foreground" />
-                </div>
-                <div>
-                  <div className={s.contactLabel}>Email</div>
-                  <div className={s.contactValue}>{contactContent.details.email}</div>
-                </div>
-              </a>
-
               <div className={s.contactItem}>
                 <div className={s.contactIcon}>
-                  <IconLocation className="w-5 h-5 text-primary-foreground" />
+                  <MapPin className="w-5 h-5 text-accent-foreground" />
                 </div>
                 <div>
                   <div className={s.contactLabel}>Adres</div>
@@ -93,18 +79,18 @@ export function ContactSection() {
 
               <div className={s.contactItem}>
                 <div className={s.contactIcon}>
-                  <IconBadge className="w-5 h-5 text-primary-foreground" />
+                  <Clock className="w-5 h-5 text-accent-foreground" />
                 </div>
                 <div>
-                  <div className={s.contactLabel}>NIP</div>
-                  <div className={s.contactValue}>{contactContent.details.nip}</div>
+                  <div className={s.contactLabel}>Godziny</div>
+                  <div className={s.contactValue}>{contactContent.hours}</div>
                 </div>
               </div>
             </div>
 
             <div className={s.area}>
               <div className={s.areaLabel}>
-                <IconMap className="w-4 h-4 text-primary" />
+                <Map className="w-4 h-4 text-accent" />
                 Obszar działania
               </div>
               <div className={s.areaValue}>{contactContent.area}</div>
@@ -130,12 +116,12 @@ export function ContactSection() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Lokalizacja MAL-CER"
+                  title="Lokalizacja Glazurnik Zielona Góra"
                 />
               </div>
 
               <a href={siteConfig.phoneHref} className={s.ctaButton}>
-                <IconCall className="w-6 h-6" />
+                <Phone className="w-6 h-6" />
                 {contactContent.cta.buttonLabel}
               </a>
             </div>

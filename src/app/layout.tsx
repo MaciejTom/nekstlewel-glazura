@@ -1,37 +1,26 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, Source_Sans_3, Fira_Code } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const bebasNeue = Bebas_Neue({
-  weight: "400",
-  variable: "--font-bebas",
-  subsets: ["latin", "latin-ext"],
-});
-
-const sourceSans = Source_Sans_3({
-  variable: "--font-source-sans",
-  subsets: ["latin", "latin-ext"],
-});
-
-const firaCode = Fira_Code({
-  variable: "--font-fira",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin", "latin-ext"],
 });
 
 export const metadata: Metadata = {
-  title: "Remonty Ostrowiec Świętokrzyski - MAL-CER Cezary Żelazowski",
-  description: "Remonty, wykończenia wnętrz, elewacje i budowa domów w Ostrowcu i okolicach. Jeden wykonawca od A do Z. Zadzwoń: 782 068 013.",
+  title: "Glazurnik Zielona Góra - posadzki przemysłowe, hale, serwisy",
+  description: "Specjalista od posadzek przemysłowych. Hale, serwisy samochodowe, showroomy. Zielona Góra i okolice. Zadzwoń: 510 625 088.",
   openGraph: {
-    title: "MAL-CER | Remonty Ostrowiec Świętokrzyski",
-    description: "Wykończenia wnętrz, elewacje, budowa domów. Jeden wykonawca od A do Z. Cezary Żelazowski.",
+    title: "Glazurnik Zielona Góra | Posadzki przemysłowe",
+    description: "Hale, serwisy samochodowe, showroomy. Specjalista od dużych powierzchni przemysłowych.",
     type: "website",
     locale: "pl_PL",
-    siteName: "MAL-CER",
+    siteName: "Glazurnik Zielona Góra",
   },
   twitter: {
     card: "summary_large_image",
-    title: "MAL-CER | Remonty Ostrowiec Świętokrzyski",
-    description: "Wykończenia wnętrz, elewacje, budowa domów. Jeden wykonawca od A do Z.",
+    title: "Glazurnik Zielona Góra | Posadzki przemysłowe",
+    description: "Hale, serwisy samochodowe, showroomy. Specjalista od dużych powierzchni.",
   },
 };
 
@@ -46,7 +35,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className={`${bebasNeue.variable} ${sourceSans.variable} ${firaCode.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>
