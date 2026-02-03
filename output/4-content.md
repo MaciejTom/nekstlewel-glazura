@@ -21,15 +21,15 @@
 
 ### Content
 
-**H1:** Posadzki przemysłowe. Nie łazienki. Zielona Góra.
+**H1:** Posadzki przemysłowe. Zielona Góra.
 
-**Subheadline:** Hale magazynowe, serwisy samochodowe, showroomy. Płytki które wytrzymają podnośnik, olej i 10 lat codziennego użytkowania. 500 m² to standard.
+**Subheadline:** Hale magazynowe, serwisy samochodowe, showroomy. Płytki które wytrzymają podnośnik, olej i lata codziennego użytkowania. 500 m² to standard.
 
 **CTA Primary:** Zadzwoń: 510 625 088
 
 **CTA Secondary:** Zobacz realizacje
 
-**Memorable:** "Typowy glazurnik robi łazienki. Ja robię hale."
+**Memorable:** "Hale, serwisy, showroomy — to moja specjalność."
 
 ---
 
@@ -37,15 +37,15 @@
 
 ### Content
 
-**H2:** Hala to nie łazienka
+**H2:** Duże powierzchnie wymagają doświadczenia
 
 Szukasz glazurnika do obiektu przemysłowego? I słyszysz: "Nigdy nie robiłem takiej powierzchni" albo "To chyba za duże na mnie".
 
-**Memorable:** "Łazienka ma 4 m². Hala ma 500. To inna liga."
+**Memorable:** "500 m² wymaga innego podejścia niż mały remont."
 
-Większość glazurników specjalizuje się w mieszkaniach. Ja specjalizuję się w obiektach przemysłowych i komercyjnych. Hale magazynowe, serwisy samochodowe, salony dealerskie, showroomy.
+Specjalizuję się w obiektach przemysłowych i komercyjnych. Hale magazynowe, serwisy samochodowe, salony dealerskie, showroomy.
 
-Płytki przemysłowe to nie to samo co płytki łazienkowe. Inne kleje, inna technika, inne wymagania. Posadzka w serwisie samochodowym musi wytrzymać:
+Płytki przemysłowe mają inne wymagania. Inne kleje, inna technika. Posadzka w serwisie samochodowym musi wytrzymać:
 - Podnośniki hydrauliczne (tony nacisku w jednym punkcie)
 - Olej, płyny eksploatacyjne, chemię
 - Codzienne użytkowanie przez lata
@@ -62,9 +62,7 @@ Dlatego robię tylko to, co umiem najlepiej.
 
 ### Content
 
-**H2:** Co robię (i czego nie)
-
-### ✅ ROBIĘ:
+**H2:** Moja specjalizacja
 
 **H3:** Hale przemysłowe i magazynowe
 
@@ -82,13 +80,7 @@ Estetyka premium + wytrzymałość przemysłowa. Płytki które wyglądają i dz
 
 Biurowce, hale handlowe, przestrzenie usługowe. Duży format, nowoczesne wykończenia.
 
-### ❌ NIE ROBIĘ:
-
-- Łazienek w mieszkaniach
-- Małych remontów (poniżej 100 m²)
-- Płytek na balkonach i tarasach
-
-**Memorable:** "Nie dlatego że nie umiem. Dlatego że specjalizacja to wybór."
+**Memorable:** "Specjalizacja oznacza robienie tego, co umiem najlepiej."
 
 ---
 
@@ -148,7 +140,7 @@ Nowoczesny obiekt komercyjny. Duży format płytek, szklane ściany, oświetleni
 
 ### Content
 
-**H2:** Dlaczego przemysłowe to inna liga
+**H2:** Dlaczego warto wybrać specjalistę
 
 ### USP 1: Skala
 
@@ -156,7 +148,7 @@ Nowoczesny obiekt komercyjny. Duży format płytek, szklane ściany, oświetleni
 
 **H3:** 500 m² to mój standard
 
-Nie robię małych remontów. Moja specjalność to duże powierzchnie — hale, serwisy, showroomy. Tam gdzie liczy się tempo i precyzja na dużej skali.
+Moja specjalność to duże powierzchnie — hale, serwisy, showroomy. Tam gdzie liczy się tempo i precyzja na dużej skali.
 
 ### USP 2: Technika
 
@@ -208,13 +200,13 @@ Wspólny odbiór. Sprawdzamy całą powierzchnię. Dokumentacja dla obiektów ko
 
 **H2:** Pytania
 
-### Q1: Czy robisz też łazienki?
+### Q1: Jaka jest minimalna powierzchnia zlecenia?
 
-Nie. Specjalizuję się w posadzkach przemysłowych i komercyjnych. Łazienki to inna liga — polecam szukać glazurnika który się w tym specjalizuje.
+Specjalizuję się w dużych powierzchniach — od około 100 m² w górę. Mniejsze zlecenia polecam kierować do glazurników specjalizujących się w remontach mieszkań.
 
-### Q2: Jaka minimalna powierzchnia?
+### Q2: Jakie płytki stosujesz w halach i serwisach?
 
-Od około 100 m² w górę. Mniejsze zlecenia nie są opłacalne dla żadnej strony — nie jestem w tym najlepszy i nie dam najlepszej ceny.
+Płytki przemysłowe odporne na obciążenia, olej i chemię. Gresite, duży format, płytki techniczne. Dobór materiału zawsze po oględzinach — zależy od przeznaczenia obiektu.
 
 ### Q3: Masz opinie / referencje?
 
@@ -256,7 +248,7 @@ Opisz obiekt i powierzchnię. Umówimy się na oględziny. Reszta to moja robota
 
 **CTA Button:** Zadzwoń: 510 625 088
 
-**Memorable:** "Łazienki nie robię. Ale halę 500 m² — chętnie."
+**Memorable:** "Hala, serwis, showroom — zadzwoń, wycenię."
 
 ---
 
@@ -265,8 +257,8 @@ Opisz obiekt i powierzchnię. Umówimy się na oględziny. Reszta to moja robota
 | Element | Wartość |
 |---------|---------|
 | **Title** | Glazurnik Zielona Góra — posadzki przemysłowe, hale, serwisy (58 zn.) |
-| **Description** | Specjalista od posadzek przemysłowych. Hale, serwisy samochodowe, showroomy. Nie łazienki. Zielona Góra. Zadzwoń: 510 625 088. (138 zn.) |
-| **H1** | Posadzki przemysłowe. Nie łazienki. Zielona Góra. |
+| **Description** | Specjalista od posadzek przemysłowych. Hale, serwisy samochodowe, showroomy. Zielona Góra i okolice. Zadzwoń: 510 625 088. (120 zn.) |
+| **H1** | Posadzki przemysłowe. Zielona Góra. |
 | **URL** | /glazurnik-zielona-gora |
 | **Canonical** | https://glazurnik-zielonagora.pl/glazurnik-zielona-gora |
 
@@ -290,12 +282,12 @@ Opisz obiekt i powierzchnię. Umówimy się na oględziny. Reszta to moja robota
 
 ### Hook (Tier 2 — Visible Specialization)
 
-**Wybrany:** "Posadzki przemysłowe. Nie łazienki. Zielona Góra."
+**Wybrany:** "Posadzki przemysłowe. Zielona Góra."
 
 **Dlaczego:**
-- **Tier 2 Detected:** Zdjęcia pokazują WYŁĄCZNIE obiekty przemysłowe (0 łazienek)
-- **Pozycjonowanie przez negację:** "Nie łazienki" natychmiast wyróżnia od 95% glazurników
-- **Test wymienialności:** Glazurnik od łazienek NIE MOŻE użyć tego hooka
+- **Tier 2 Detected:** Zdjęcia pokazują WYŁĄCZNIE obiekty przemysłowe
+- **Pozycjonowanie pozytywne:** Skupiamy się na tym CO robimy, nie czego nie robimy
+- **Jasna specjalizacja:** Od razu wiadomo że to glazurnik do obiektów przemysłowych
 
 **Odrzucone:**
 - "Glazurnik Zielona Góra" — generyczne
@@ -312,25 +304,16 @@ Opisz obiekt i powierzchnię. Umówimy się na oględziny. Reszta to moja robota
 - Zamiast ukrywać — przyznajemy i przekierowujemy na realizacje
 - Realizacje przemysłowe SĄ dowodem kompetencji dla klienta B2B
 
-### Sekcja "Czego NIE robię"
-
-**Innowacja:** Większość stron mówi co firma robi. Ta mówi też czego NIE robi.
-
-**Dlaczego:**
-- Wzmacnia pozycjonowanie specjalisty
-- Odsiewa klientów B2C (łazienki) — oszczędza czas
-- Buduje wiarygodność ("wie czego nie umie")
-
 ### Memorable Lines (Tier 2 style)
 
 | Sekcja | Memorable | Dlaczego unikalne |
 |--------|-----------|-------------------|
-| Hero | "Typowy glazurnik robi łazienki. Ja robię hale." | Kontrast, pozycjonowanie |
-| Problem | "Łazienka ma 4 m². Hala ma 500. To inna liga." | Konkretne liczby, skala |
-| Specjalizacja | "Nie dlatego że nie umiem. Dlatego że specjalizacja to wybór." | Świadomy wybór, nie słabość |
+| Hero | "Hale, serwisy, showroomy — to moja specjalność." | Jasna specjalizacja |
+| Problem | "500 m² wymaga innego podejścia niż mały remont." | Konkretne liczby, skala |
+| Specjalizacja | "Specjalizacja oznacza robienie tego, co umiem najlepiej." | Profesjonalizm |
 | USP | "Podnośnik hydrauliczny to 3 tony w jednym punkcie." | Techniczny, konkretny |
 | FAQ | "Realizacje mówią. Zadzwoń, pokażę więcej zdjęć." | Honest selling |
-| Kontakt | "Łazienki nie robię. Ale halę 500 m² — chętnie." | Zamknięcie z hookiem |
+| Kontakt | "Hala, serwis, showroom — zadzwoń, wycenię." | Jasne CTA |
 
 ---
 

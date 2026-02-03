@@ -96,18 +96,17 @@
       }
     ],
     "specialization_detected": "Posadzki przemysłowe i komercyjne (B2B)",
-    "NOT_detected": ["łazienki", "mieszkania", "B2C"],
     "photo_gaps": ["brak zdjęć zespołu", "brak before/after"]
   },
 
   "usp": [
     {
       "id": 1,
-      "statement": "Specjalizacja przemysłowa (nie łazienki)",
+      "statement": "Specjalizacja przemysłowa",
       "evidence_strength": "strong",
       "type": "visible_specialization",
-      "proof": "4/4 zdjęć to obiekty przemysłowe/komercyjne, 0 łazienek",
-      "uniqueness": "WYRÓŻNIK - większość glazurników robi łazienki"
+      "proof": "4/4 zdjęć to obiekty przemysłowe/komercyjne",
+      "uniqueness": "Jasna specjalizacja w obiektach przemysłowych"
     },
     {
       "id": 2,
@@ -155,12 +154,12 @@
       "Referencje obiektowe"
     ],
     "example_headlines": [
-      "Posadzki przemysłowe. Nie łazienki. Zielona Góra.",
+      "Posadzki przemysłowe. Zielona Góra.",
       "Hale, serwisy, showroomy. 500 m² to standard.",
       "Płytki które wytrzymają podnośnik i olej."
     ],
     "words_to_use": ["posadzki przemysłowe", "hale", "serwisy", "m²", "odporność", "obciążenia"],
-    "words_to_avoid": ["łazienki", "pasja", "marzenia", "kompleksowo", "indywidualne podejście"]
+    "words_to_avoid": ["pasja", "marzenia", "kompleksowo", "indywidualne podejście"]
   },
 
   "design_recommendation": {
@@ -198,12 +197,11 @@
       "type": "photo_specialization",
       "evidence": [
         "4/4 zdjęć to obiekty przemysłowe/komercyjne",
-        "0 zdjęć łazienek/mieszkań",
         "Hale, serwisy samochodowe, showroomy",
         "Duże powierzchnie (500-1000+ m²)",
-        "KONTRAST z typowym glazurnikiem (łazienki)"
+        "Jasna specjalizacja przemysłowa"
       ],
-      "suggested_hook": "Posadzki przemysłowe. Nie łazienki. Zielona Góra."
+      "suggested_hook": "Posadzki przemysłowe. Zielona Góra."
     },
 
     "tier_3_check": {
@@ -219,9 +217,9 @@
     },
 
     "recommended_hook": {
-      "main": "Posadzki przemysłowe. Nie łazienki. Zielona Góra.",
+      "main": "Posadzki przemysłowe. Zielona Góra.",
       "alternative_1": "Hale, serwisy, showroomy. 500 m² to standard.",
-      "alternative_2": "Typowy glazurnik robi łazienki. Ja robię hale.",
+      "alternative_2": "Specjalizacja w obiektach przemysłowych.",
       "avoid": [
         "Profesjonalny glazurnik",
         "Kompleksowe usługi glazurnicze",
@@ -242,20 +240,20 @@
       "id": 1,
       "name": "Hero",
       "purpose": "Tier 2 hook - specjalizacja przemysłowa",
-      "content_notes": "Od razu pozycjonowanie: NIE łazienki",
+      "content_notes": "Jasne pozycjonowanie: posadzki przemysłowe",
       "photo_need": "hala lub salon samochodowy"
     },
     {
       "id": 2,
       "name": "Problem → Rozwiązanie",
-      "purpose": "Dlaczego nie każdy glazurnik",
-      "content_notes": "500 m² to inna liga niż łazienka 4 m²"
+      "purpose": "Dlaczego warto wybrać specjalistę",
+      "content_notes": "500 m² wymaga innego podejścia"
     },
     {
       "id": 3,
       "name": "Specjalizacja",
-      "purpose": "Co robimy (i czego NIE)",
-      "content_notes": "Hale, serwisy, showroomy. NIE: łazienki, mieszkania"
+      "purpose": "Co robimy",
+      "content_notes": "Hale, serwisy, showroomy"
     },
     {
       "id": 4,
@@ -296,11 +294,11 @@
   "REASONING": {
     "uniqueness_tier": {
       "chosen": 2,
-      "why": "Zdjęcia pokazują WYRAŹNĄ specjalizację przemysłową. 4/4 zdjęć to hale/serwisy/showroomy. 0 łazienek. To jest unikalny kąt który wyróżnia od 95% glazurników."
+      "why": "Zdjęcia pokazują WYRAŹNĄ specjalizację przemysłową. 4/4 zdjęć to hale/serwisy/showroomy. To jest unikalny kąt."
     },
     "hook_strategy": {
-      "approach": "KONTRAST",
-      "why": "Pozycjonowanie przez negację: 'Nie łazienki' natychmiast wyróżnia. Klient B2B szukający glazurnika do hali od razu wie że trafił."
+      "approach": "POZYTYWNE POZYCJONOWANIE",
+      "why": "Fokus na to CO robimy, nie czego nie robimy. Klient B2B szukający glazurnika do hali od razu wie że trafił."
     },
     "honest_selling": {
       "needed": true,
