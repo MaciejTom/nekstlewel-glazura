@@ -1,0 +1,12 @@
+export { NavSection } from "./nav-section";
+export { HeroSection } from "./hero-section";
+export { ProblemSection } from "./problem-section";
+export { WhyUsSection } from "./why-us-section";
+export { WhyUsAlternative } from "./why-us-alternative";
+export { ServicesSection } from "./services-section";
+export { ProcessSection } from "./process-section";
+export { PortfolioSection } from "./portfolio-section";
+export { FaqSection } from "./faq-section";
+export { ContactSection } from "./contact-section";
+export { FooterSection } from "./footer-section";
+export { BackToTop } from "./back-to-top";

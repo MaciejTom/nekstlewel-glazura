@@ -1,0 +1,203 @@
+<!--
+  Source: Stitch prototype
+  Layout: Overlay cards — tall cards with image bg, gradient overlay, hover effects
+  Wireframe: src/components/wireframe/services-overlay-wireframe.tsx
+  Spec: src/agent/wireframe/specs/overlay-cards.md
+-->
+<section class="relative min-h-screen w-full py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-warm-bg overflow-hidden">
+  <div class="max-w-7xl mx-auto flex flex-col items-center">
+    <div class="text-center max-w-3xl mb-16 relative z-10">
+      <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 relative inline-block">
+        Od ścian po podłogi — pełen zakres prac
+        <span class="block mt-2">remontowych</span>
+        <span class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-primary rounded-full"></span>
+      </h2>
+      <p class="font-body text-gray-600 text-lg md:text-xl leading-relaxed mt-8 max-w-2xl mx-auto">
+        Zrobię to, co trzeba — od drobnych poprawek po remont całego domu. Każdą pracę wyceniam na miejscu, bez niespodzianek.
+      </p>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-8 w-full">
+
+      <!-- Card 1 -->
+      <div class="group relative w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] h-[500px] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+        <div class="absolute inset-0">
+          <img alt="Tynki i gładzie" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMwQFdsRgF5QivfDlmb2uRDGO7_jgw0kWj9BVZykCc1vfH-KYulR3Tdzrx_jzySFJ6phsHu7OaSlSztIuPne0PNQGMRR8TW2HSK1CrFTag6gN_m3FWC426vnjPyXfet3SQoRDm3cKhuaC2i966lgVsOhLofnJeHpxq30S5aOULddiTMC71dsvbksiRfwVHeyGxoKGvCvBJiOCDFwDuRa5yfdKT2K3P1O-4bLS9WYP13kCrXKEijQnYOI-i4PC7MLKqi-oirCi7ZQ"/>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#fffbf5] via-[#fffbf5]/95 via-40% to-transparent opacity-100"></div>
+        <div class="absolute inset-0 flex flex-col justify-end p-8">
+          <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary backdrop-blur-sm self-start">
+            <span class="material-symbols-outlined text-2xl">format_paint</span>
+          </div>
+          <h3 class="font-display text-2xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors duration-300">
+            Tynki i gładzie
+          </h3>
+          <p class="text-secondary/80 mb-4 text-sm leading-relaxed font-medium">
+            Profesjonalne przygotowanie ścian pod malowanie. Gwarancja gładkich, równych powierzchni i estetycznego wykończenia.
+          </p>
+          <ul class="space-y-2 text-sm text-secondary font-bold">
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Tynki tradycyjne i maszynowe
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Gładzie gipsowe i polimerowe
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Naprawa pęknięć i ubytków
+            </li>
+          </ul>
+          <div class="w-12 h-1 bg-primary mt-6 rounded-full transition-all duration-300 group-hover:w-full opacity-80"></div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="group relative w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] h-[500px] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+        <div class="absolute inset-0">
+          <img alt="Malowanie wnętrz" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACNqc4s5oX89SlI8N4yVBxFVywO1MEiz8pg3nlnkcdv5zOAPlLH1mjakmYrbPAdcrh3g6TKT99G92SwDl59DvWLwIT9QXzCAduIMMpsYQH1GK8ETDix4DTLSHMzzpOBO_A4cOBobN0AOATXxCvs5_N3q50VZkOtYqXQVl1HhiIgOJKDU-v_cynxZ-btIBL5-J-cDHNPd6WVRJTHBJ9lPxoLNNmq9hkTuZSHKB0WiyT55ZBX23sDbv_JQrF5wm0N0OSR27-ivL-Fw"/>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#fffbf5] via-[#fffbf5]/95 via-40% to-transparent opacity-100"></div>
+        <div class="absolute inset-0 flex flex-col justify-end p-8">
+          <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary backdrop-blur-sm self-start">
+            <span class="material-symbols-outlined text-2xl">palette</span>
+          </div>
+          <h3 class="font-display text-2xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors duration-300">
+            Malowanie wnętrz
+          </h3>
+          <p class="text-secondary/80 mb-4 text-sm leading-relaxed font-medium">
+            Precyzyjne malowanie mieszkań i domów z dbałością o czystość. Zabezpieczenie mebli i podłóg w standardzie.
+          </p>
+          <ul class="space-y-2 text-sm text-secondary font-bold">
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Malowanie ścian i sufitów
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Malowanie dekoracyjne
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Gruntowanie powierzchni
+            </li>
+          </ul>
+          <div class="w-12 h-1 bg-primary mt-6 rounded-full transition-all duration-300 group-hover:w-full opacity-80"></div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="group relative w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] h-[500px] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+        <div class="absolute inset-0">
+          <img alt="Zabudowy G-K" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpR-NCnE48YwGnGl_h-hKJ_4SAyaJKQeJLxicj3gTV0vEGXbdAUCIjFTythWuq0MCaYlWk04GGDv48EWfpqT0NxHfmXSErIKvg_h5F4O2NEMH346QUDFbAJPkPgmQvLX1Mc_s7tatiQ6o6l_ncGzT5qOuGXqFHdB9pFmrzVJvtAtEnRrhVn3ggsc6W-cmOa1CbaJNOP6fGUHUt95S5W0kGCfuhNm-_5dLaoiuff5tXkmmEPrzldpiay9EcMJkHjbaylAZu99hfkw"/>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#fffbf5] via-[#fffbf5]/95 via-40% to-transparent opacity-100"></div>
+        <div class="absolute inset-0 flex flex-col justify-end p-8">
+          <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary backdrop-blur-sm self-start">
+            <span class="material-symbols-outlined text-2xl">grid_view</span>
+          </div>
+          <h3 class="font-display text-2xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors duration-300">
+            Zabudowy G-K
+          </h3>
+          <p class="text-secondary/80 mb-4 text-sm leading-relaxed font-medium">
+            Nowoczesne rozwiązania przestrzenne. Tworzymy nowe układy pomieszczeń oraz dekoracyjne elementy sufitowe.
+          </p>
+          <ul class="space-y-2 text-sm text-secondary font-bold">
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Sufity podwieszane
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Ścianki działowe
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Zabudowy rur i instalacji
+            </li>
+          </ul>
+          <div class="w-12 h-1 bg-primary mt-6 rounded-full transition-all duration-300 group-hover:w-full opacity-80"></div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="group relative w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] h-[500px] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+        <div class="absolute inset-0">
+          <img alt="Układanie płytek i paneli" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPTulQAjPt7NbosvX84_ulnMp0X_awF8y_hBvNnAGWTaYp_hOBurz_i7_d7ATNSAAUf8MkwlBrAacqbBCYyTgX7oU7r8ZmkVxmgTlkWC7dae8Y4X-8EooFFdXahAJhvXDZOWkL8Brlq7FmwKAjcLxjSUHnbKCSY5V9M2ZI1u2YifeNoYzmR-r2Q6ZsOQ6-Y2jjtEuTgvu2Ni7iov0YA80fW0e0ojmtMjVpJBUrDK5mnoZXFmcm2ne7GEDuQjgIbgVNwBAEWTV-DQ"/>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#fffbf5] via-[#fffbf5]/95 via-40% to-transparent opacity-100"></div>
+        <div class="absolute inset-0 flex flex-col justify-end p-8">
+          <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary backdrop-blur-sm self-start">
+            <span class="material-symbols-outlined text-2xl">straighten</span>
+          </div>
+          <h3 class="font-display text-2xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors duration-300">
+            Układanie płytek i paneli
+          </h3>
+          <p class="text-secondary/80 mb-4 text-sm leading-relaxed font-medium">
+            Kompleksowe prace podłogowe. Od precyzyjnego układania gresu po szybki montaż paneli podłogowych.
+          </p>
+          <ul class="space-y-2 text-sm text-secondary font-bold">
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Glazura i terakota
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Panele winylowe i laminowane
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Listwy przypodłogowe
+            </li>
+          </ul>
+          <div class="w-12 h-1 bg-primary mt-6 rounded-full transition-all duration-300 group-hover:w-full opacity-80"></div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="group relative w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] h-[500px] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer">
+        <div class="absolute inset-0">
+          <img alt="Montaże i Złota Rączka" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxukK50hERBZpimWWjBu0YvS-3W8o7poM3ljg0-cDF0UUmp3csu8e7crhxM5Dn_N_9V4o4iFblfxT7mOQSEF-h8rRXyjVj_To1fEBAMLMfIOdMjxqTRdihUj-4NIDVcNmYjswucAHxol1lhekLblMuneY6rm22rNeWoE6-gOWgDCanJ-Lq5rwiVHbdyWaiRG-UC8rMH7W425aQ7cD-XBmqot_b4718Rg5hU35o4zUREGEh7DOBTmzkuganpbCGeAobDmhY2umW6w"/>
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-[#fffbf5] via-[#fffbf5]/95 via-40% to-transparent opacity-100"></div>
+        <div class="absolute inset-0 flex flex-col justify-end p-8">
+          <div class="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary backdrop-blur-sm self-start">
+            <span class="material-symbols-outlined text-2xl">handyman</span>
+          </div>
+          <h3 class="font-display text-2xl font-bold text-secondary mb-3 group-hover:text-primary transition-colors duration-300">
+            Montaże i "Złota Rączka"
+          </h3>
+          <p class="text-secondary/80 mb-4 text-sm leading-relaxed font-medium">
+            Drobne naprawy i prace montażowe, które wymagają fachowej ręki. Pomoc w nagłych awariach.
+          </p>
+          <ul class="space-y-2 text-sm text-secondary font-bold">
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Składanie mebli
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Biały montaż (umywalki)
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="h-1.5 w-1.5 rounded-full bg-primary"></span>
+              Wymiana gniazdek
+            </li>
+          </ul>
+          <div class="w-12 h-1 bg-primary mt-6 rounded-full transition-all duration-300 group-hover:w-full opacity-80"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="mt-20 text-center">
+      <p class="text-secondary font-medium mb-4 text-lg">Nie widzisz usługi, której szukasz?</p>
+      <button class="bg-primary hover:bg-red-700 text-white font-body font-semibold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-3 mx-auto transform hover:-translate-y-0.5">
+        <span class="material-symbols-outlined text-[24px]">call</span>
+        Zapytaj o wycenę
+      </button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,224 @@
+@import "tailwindcss";
+
+/* =============================================
+   MAL-CER CONSTRUCTION THEME
+   Solid, industrial feel for Polish construction company
+   Forest Green (#15803d) + Concrete dark tones
+   ============================================= */
+
+:root {
+  --background: #111111;
+  --foreground: #f5f5f5;
+  --card: #1a1a1a;
+  --card-foreground: #f5f5f5;
+  --popover: #1a1a1a;
+  --popover-foreground: #f5f5f5;
+  --primary: #15803d;
+  --primary-foreground: #ffffff;
+  --secondary: #1f1f1f;
+  --secondary-foreground: #f5f5f5;
+  --muted: #2a2a2a;
+  --muted-foreground: #a3a3a3;
+  --accent: #ca8a04;
+  --accent-foreground: #111111;
+  --destructive: #dc2626;
+  --destructive-foreground: #f5f5f5;
+  --border: #333333;
+  --input: #333333;
+  --ring: #15803d;
+  --font-sans: var(--font-source-sans);
+  --font-heading: var(--font-bebas);
+  --radius: 0;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow: 0 2px 4px rgba(0,0,0,0.4);
+  --shadow-md: 0 4px 8px rgba(0,0,0,0.4);
+  --shadow-lg: 0 8px 16px rgba(0,0,0,0.5);
+  --tracking-normal: 0.01em;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-heading);
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+}
+
+/* Base */
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-source-sans), system-ui, sans-serif;
+  }
+}
+
+/* Section spacing */
+.section-spacing {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-spacing {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Scrollbar - simple */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+/* Heading font - Bebas Neue */
+.font-heading {
+  font-family: var(--font-bebas), system-ui, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Simple animations */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out both;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+
+/* Card hover - simple lift */
+.card-hover {
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  border-color: var(--primary);
+}
+
+/* Button hover */
+.btn-hover {
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.btn-hover:hover {
+  transform: translateY(-1px);
+}
+.btn-hover:active {
+  transform: translateY(0);
+}
+
+/* Green accent bar under headings */
+.h2-bar::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--primary);
+  margin-top: 1rem;
+}
+
+.h2-bar-center::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--primary);
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Focus states */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Simple left border accent */
+.accent-border-left {
+  border-left: 4px solid var(--primary);
+  padding-left: 1rem;
+}
+
+/* Icon box */
+.icon-box {
+  width: 48px;
+  height: 48px;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box-outline {
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Better tap targets on mobile */
+@media (max-width: 768px) {
+  a, button {
+    min-height: 44px;
+  }
+}

@@ -1,0 +1,216 @@
+<!--
+  Source: Stitch prototype
+  Layout: Editorial alternating — image+text rows, 50/50 split, step badges
+  Wireframe: src/components/wireframe/services-editorial-wireframe.tsx
+  Spec: src/agent/wireframe/specs/editorial-alternating.md
+-->
+<section class="relative min-h-screen w-full py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-warm-bg overflow-hidden">
+  <div class="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-white to-transparent opacity-30 pointer-events-none"></div>
+  <div class="max-w-7xl mx-auto flex flex-col items-center">
+    <div class="text-center max-w-3xl mb-20 relative z-10">
+      <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-secondary mb-6 relative inline-block">
+        Od ścian po podłogi — pełen zakres prac
+        <span class="block mt-2">remontowych</span>
+        <span class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-primary rounded-full"></span>
+      </h2>
+      <p class="font-body text-gray-600 text-lg md:text-xl leading-relaxed mt-8 max-w-2xl mx-auto">
+        Zrobię to, co trzeba — od drobnych poprawek po remont całego domu. Każdą pracę wyceniam na miejscu, bez niespodzianek.
+      </p>
+    </div>
+    <div class="w-full flex flex-col gap-20 lg:gap-32">
+
+      <!-- Service 1: Image LEFT -->
+      <div class="group flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+        <div class="w-full lg:w-1/2 relative">
+          <div class="absolute top-4 -left-4 w-full h-full border-2 border-primary/20 rounded-xl hidden lg:block"></div>
+          <div class="relative h-64 sm:h-80 lg:h-[400px] w-full rounded-xl overflow-hidden shadow-lg">
+            <img alt="Ściana przygotowana pod malowanie" class="object-cover w-full h-full transform transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcAP8yCu0Y01hTiIdIe3tlDyEQDdrlg74kopNP47wzre8UOwGTaCl9RaKnH7eSfWxT0J7T9FnQQpmT1qq5dXi4d4sFMin-FrvJLVdUIT2FzxrJ8bbqo4gIvTGHnbmtWqFWO3dqY3rTb-I0r44zFz3XC7TE7W6OcP0KmmCCI0C09RH4s9dB8Tax8awc6jHa82Ku2DJA92l0OJWJ1qBjuzObsOLoMI24Ov3LyWYWzPA0UKf2NTv5oRklPr5vjtjYSAaqz2q0tYj6NA"/>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <div class="flex items-center gap-4 mb-4">
+            <span class="flex items-center justify-center w-12 h-12 rounded-full bg-white text-primary shadow-sm">
+              <span class="material-symbols-outlined text-2xl">format_paint</span>
+            </span>
+            <span class="uppercase tracking-widest text-xs font-bold text-gray-500">Etap 1: Ściany</span>
+          </div>
+          <h3 class="font-display text-3xl font-bold text-secondary mb-6">Tynki i gładzie</h3>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Profesjonalne przygotowanie ścian to fundament każdego udanego remontu. Gwarantuję idealnie gładkie, równe powierzchnie przygotowane pod malowanie, eliminując wszelkie nierówności i pęknięcia.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Tynki tradycyjne i maszynowe</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Gładzie gipsowe i polimerowe</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Naprawa pęknięć i ubytków</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 2: Image RIGHT -->
+      <div class="group flex flex-col lg:flex-row-reverse items-center gap-10 lg:gap-16">
+        <div class="w-full lg:w-1/2 relative">
+          <div class="absolute top-4 -right-4 w-full h-full border-2 border-secondary/20 rounded-xl hidden lg:block"></div>
+          <div class="relative h-64 sm:h-80 lg:h-[400px] w-full rounded-xl overflow-hidden shadow-lg">
+            <img alt="Malowanie pokoju na biało" class="object-cover w-full h-full transform transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7nyRwBKUh5PodYyozXsIdfgVZ0BS0Bmy19daPiGYUNAzcwUQ7gTLveTd8USUodzSHBv9rwsqfnMnkNrAAwB0nEBX9Nd0G4rwKISY4Tcn9V0kMPDibfwgmllVUb_i-aQh6kV9tGtnsc1IjNBBUrl1KARbiOYTt30Nr-nAaQRSnk2bRZCLnT-qfI8u08U77jzU17NUdrPEXS0HR5WqJAb6SaXO08BOJrAFW1gWlQaLZxOzrM1F9L9l2OGvJsRkoFurmYtZfizTejA"/>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 lg:text-right">
+          <div class="flex items-center gap-4 mb-4 lg:flex-row-reverse">
+            <span class="flex items-center justify-center w-12 h-12 rounded-full bg-white text-primary shadow-sm">
+              <span class="material-symbols-outlined text-2xl">palette</span>
+            </span>
+            <span class="uppercase tracking-widest text-xs font-bold text-gray-500">Etap 2: Kolor</span>
+          </div>
+          <h3 class="font-display text-3xl font-bold text-secondary mb-6">Malowanie wnętrz</h3>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Precyzyjne malowanie mieszkań i domów z najwyższą dbałością o detale. Zawsze zabezpieczam meble i podłogi, a po pracy zostawiam idealny porządek, byś mógł cieszyć się nowym kolorem od razu.
+          </p>
+          <ul class="space-y-4 flex flex-col lg:items-end">
+            <li class="flex items-start gap-3 lg:flex-row-reverse">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Malowanie ścian i sufitów</span>
+            </li>
+            <li class="flex items-start gap-3 lg:flex-row-reverse">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Malowanie dekoracyjne</span>
+            </li>
+            <li class="flex items-start gap-3 lg:flex-row-reverse">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Gruntowanie powierzchni</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 3: Image LEFT -->
+      <div class="group flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+        <div class="w-full lg:w-1/2 relative">
+          <div class="absolute top-4 -left-4 w-full h-full border-2 border-primary/20 rounded-xl hidden lg:block"></div>
+          <div class="relative h-64 sm:h-80 lg:h-[400px] w-full rounded-xl overflow-hidden shadow-lg">
+            <img alt="Konstrukcja sufitu podwieszanego" class="object-cover w-full h-full transform transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY8gMxvIQAyPYQNcSaufnm-gMS0ZwITIz4nLUo3fSvd7Pg3WVQ5zu69THbzsVCCLhALgnezW7NcyF6A1_zoDrGiw-fieWTCRyHACHVWC3PXNgL3RbRW_26-xP6GE7cs143qNTKaSRPV6XOlqznHvf7KeN7mchN5-eTbeJqt-eGUbn-4mTtt0TroTtvd1xK1BSXbWvP5O_q8MHmS8aXCIB-0AVSidV9rQiXrDlu_tVEyBc14hPM9LB-jV-XJPlrT6UTHhWCwIKSDA"/>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <div class="flex items-center gap-4 mb-4">
+            <span class="flex items-center justify-center w-12 h-12 rounded-full bg-white text-primary shadow-sm">
+              <span class="material-symbols-outlined text-2xl">grid_view</span>
+            </span>
+            <span class="uppercase tracking-widest text-xs font-bold text-gray-500">Etap 3: Konstrukcja</span>
+          </div>
+          <h3 class="font-display text-3xl font-bold text-secondary mb-6">Zabudowy G-K</h3>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Nowoczesne rozwiązania przestrzenne z płyt gipsowo-kartonowych. Zmieniam układ pomieszczeń, buduję ścianki działowe i tworzę efektowne sufity podwieszane, które nadają wnętrzu charakter.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Sufity podwieszane</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Ścianki działowe</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Zabudowy rur i instalacji</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 4: Image RIGHT -->
+      <div class="group flex flex-col lg:flex-row-reverse items-center gap-10 lg:gap-16">
+        <div class="w-full lg:w-1/2 relative">
+          <div class="absolute top-4 -right-4 w-full h-full border-2 border-secondary/20 rounded-xl hidden lg:block"></div>
+          <div class="relative h-64 sm:h-80 lg:h-[400px] w-full rounded-xl overflow-hidden shadow-lg">
+            <img alt="Układanie paneli podłogowych" class="object-cover w-full h-full transform transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAh8FGglkIY7y93A4wETsDFYuiz0xrSAH4PVFkh2sa6s-p-0DtXCK05xZYSPxM8WgBnZjgAswoOxUPRHvFWuwHf2plWRisNy2es7sM0xNiSjfpZGOg7pUz-VIjoJVmwF2oPHG3_ICJRSIG6hvITmu_Vg7WjIuG3zS5GVJGMTQHh5Fx7EwTN1TyeQDGibqf061eDLaRqep2unE0RTo3B1d2Y2kC2vQ0OZVVWdLbxoav6mGRowflaADbvsLH4VbGBlpAn-f9hiLySFg"/>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 lg:text-right">
+          <div class="flex items-center gap-4 mb-4 lg:flex-row-reverse">
+            <span class="flex items-center justify-center w-12 h-12 rounded-full bg-white text-primary shadow-sm">
+              <span class="material-symbols-outlined text-2xl">straighten</span>
+            </span>
+            <span class="uppercase tracking-widest text-xs font-bold text-gray-500">Etap 4: Podłoga</span>
+          </div>
+          <h3 class="font-display text-3xl font-bold text-secondary mb-6">Układanie płytek i paneli</h3>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Kompleksowe prace podłogowe wykonane z rzemieślniczą precyzją. Od idealnie wypoziomowanej terakoty w łazience po ciepłe panele w salonie – zadbam o każdy milimetr Twojej podłogi.
+          </p>
+          <ul class="space-y-4 flex flex-col lg:items-end">
+            <li class="flex items-start gap-3 lg:flex-row-reverse">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Glazura i terakota</span>
+            </li>
+            <li class="flex items-start gap-3 lg:flex-row-reverse">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Panele winylowe i laminowane</span>
+            </li>
+            <li class="flex items-start gap-3 lg:flex-row-reverse">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Listwy przypodłogowe</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Service 5: Image LEFT -->
+      <div class="group flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+        <div class="w-full lg:w-1/2 relative">
+          <div class="absolute top-4 -left-4 w-full h-full border-2 border-primary/20 rounded-xl hidden lg:block"></div>
+          <div class="relative h-64 sm:h-80 lg:h-[400px] w-full rounded-xl overflow-hidden shadow-lg">
+            <img alt="Narzędzia warsztatowe" class="object-cover w-full h-full transform transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3r387blZvL1La0-JKEN02uYhE0gcs8evVRJWpdobGM0JWPThjvxFwn5Er5lEfI8Ziw7FCCle_bvfUjFswDVL4GehAVe4PScyAeKy5hfzhi_1tU7s5aOhJScVArKrxiD0vmXW9orinfLWSFnFPPozy6uGwPUIUL72kDHgiSI5HIbG_RHBXhQj90fVjAgG8Aj9-5tH7eqRt6jEt4vekvht6q5bdMShKPKHfSlTkD4nE8oJIU2oAfRX9_saoeWLszt3n6q7rhOaNdg"/>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <div class="flex items-center gap-4 mb-4">
+            <span class="flex items-center justify-center w-12 h-12 rounded-full bg-white text-primary shadow-sm">
+              <span class="material-symbols-outlined text-2xl">handyman</span>
+            </span>
+            <span class="uppercase tracking-widest text-xs font-bold text-gray-500">Etap 5: Wykończenie</span>
+          </div>
+          <h3 class="font-display text-3xl font-bold text-secondary mb-6">Montaże i "Złota Rączka"</h3>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            Drobne naprawy i prace montażowe, które często sprawiają najwięcej problemów. Pomogę w skręcaniu mebli, montażu armatury czy wymianie osprzętu elektrycznego. Szybko i solidnie.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Składanie mebli</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Biały montaż (umywalki, krany)</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-primary text-xl mt-0.5">check_circle</span>
+              <span class="font-medium text-gray-700">Wymiana gniazdek i włączników</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="mt-24 lg:mt-32 text-center w-full max-w-2xl border-t border-gray-200 pt-16">
+      <p class="font-display text-2xl text-secondary font-bold mb-6">Masz nietypowe zlecenie?</p>
+      <p class="text-gray-600 mb-8">
+        Każdy dom jest inny, a każdy remont wymaga indywidualnego podejścia. Jeśli nie widzisz usługi, której szukasz, zadzwoń.
+      </p>
+      <button class="bg-primary hover:bg-red-700 text-white font-body font-semibold py-4 px-10 rounded-full shadow-lg hover:shadow-primary/30 transition-all duration-300 flex items-center gap-3 mx-auto text-lg">
+        <span class="material-symbols-outlined text-[24px]">call</span>
+        Zapytaj o wycenę
+      </button>
+    </div>
+  </div>
+</section>

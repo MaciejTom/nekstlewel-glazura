@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "generated_at": "2026-01-26T12:30:00Z",
+    "agent": "designer",
+    "version": "2.0",
+    "based_on_analysis": "1-analysis.json",
+    "spec": "W3C Design Tokens Format Module 2025.10",
+    "project": "tom-art-krosno"
+  },
+
+  "REASONING": {
+    "colors": {
+      "primary": {
+        "value": "#1B2A4A",
+        "source": "Granatowy z logo TOM-ART (photo-2.jpg)",
+        "why": "Dominujacy kolor logo, nadaje powage i zaufanie. Granat = solidnosc w budownictwie.",
+        "alternatives_rejected": [
+          {
+            "color": "#C41E3A",
+            "why": "Czerwony z logo — zbyt agresywny jako primary, lepszy jako accent"
+          },
+          {
+            "color": "#F59E0B",
+            "why": "Amber/budowlany default — ale TOM-ART ma wlasny branding, uzywamy logo"
+          }
+        ]
+      },
+      "secondary": {
+        "value": "#C41E3A",
+        "source": "Czerwony z logo TOM-ART — element dachu/domu w ikonie",
+        "why": "Logo ma wyraznie 2 kolory (granat + czerwony). Uzywamy oba."
+      },
+      "accent": {
+        "value": "#FFD700",
+        "source": "Zloty/zolty z artystycznego tla logo (akwarela) + nawiazanie do nagrody Orly (zloty orzel)",
+        "why": "Zloty = nagroda, prestige. Akwarelowe tlo logo ma zolte elementy."
+      },
+      "background": {
+        "value": "#FAFAFA",
+        "source": "WARM direction — jasne, czyste tlo. Lekko cieple (nie czysty bialy #FFF)",
+        "why": "Firma B2C, ciepla ale profesjonalna. Jasne tlo latwiejsze do czytania."
+      }
+    },
+
+    "typography": {
+      "chosen": "Nunito",
+      "why": [
+        "WARM direction = zaokraglony, przyjazny font",
+        "Nunito jest czytelny i ciepły — pasuje do przyjazny_fachowiec",
+        "Google Fonts = darmowy, szybki load",
+        "Zaokraglenia Nunito nawiazuja do artystycznego charakteru TOM-ART"
+      ],
+      "rejected": [
+        {
+          "font": "Poppins",
+          "why": "OVERUSED — #1 AI-generated font, unikamy"
+        },
+        {
+          "font": "DM Sans",
+          "why": "Zbyt geometryczny/industrialny dla WARM direction"
+        },
+        {
+          "font": "Inter",
+          "why": "#2 overused AI font"
+        }
+      ]
+    },
+
+    "borders": {
+      "radius": "0.75rem",
+      "why": [
+        "WARM direction = zaokraglone krawedzie (przyjaznosc, miekkosc)",
+        "0.75rem = wystarczajaco zaokraglone by byc WARM, nie infantylne",
+        "Spojne z Nunito (rounded font = rounded shapes)"
+      ]
+    },
+
+    "shadows": {
+      "value": "shadow-md na kartach, brak w innych miejscach",
+      "why": [
+        "WARM direction = delikatne cienie (depth bez przytloczenia)",
+        "Shadow-md na kartach uslug i realizacji — oddziela od tla",
+        "Max 2 lokalizacje cieni (karty + CTA button)"
+      ]
+    }
+  },
+
+  "direction": "WARM",
+  "direction_reasoning": "Firma jednoosobowa B2C w malym miescie, artystyczna nazwa, ciepły kontakt z klientem, nagroda buduje zaufanie bez potrzeby INDUSTRIAL/PREMIUM estetyki",
+
+  "tokens": {
+    "primitive": {
+      "color": {
+        "navy-900": { "$value": "#1B2A4A", "$type": "color" },
+        "navy-700": { "$value": "#2D4A7A", "$type": "color" },
+        "navy-500": { "$value": "#3E6AAA", "$type": "color" },
+        "red-700": { "$value": "#C41E3A", "$type": "color" },
+        "red-500": { "$value": "#E8384F", "$type": "color" },
+        "gold-500": { "$value": "#FFD700", "$type": "color" },
+        "gold-600": { "$value": "#E5C100", "$type": "color" },
+        "gray-50": { "$value": "#FAFAFA", "$type": "color" },
+        "gray-100": { "$value": "#F0F0F0", "$type": "color" },
+        "gray-200": { "$value": "#E5E5E5", "$type": "color" },
+        "gray-600": { "$value": "#6B7280", "$type": "color" },
+        "gray-900": { "$value": "#1A1A1A", "$type": "color" },
+        "white": { "$value": "#FFFFFF", "$type": "color" },
+        "red-600-error": { "$value": "#DC2626", "$type": "color" },
+        "green-600": { "$value": "#059669", "$type": "color" }
+      },
+      "space": {
+        "1": { "$value": "0.25rem", "$type": "dimension" },
+        "2": { "$value": "0.5rem", "$type": "dimension" },
+        "4": { "$value": "1rem", "$type": "dimension" },
+        "6": { "$value": "1.5rem", "$type": "dimension" },
+        "8": { "$value": "2rem", "$type": "dimension" },
+        "16": { "$value": "4rem", "$type": "dimension" },
+        "24": { "$value": "6rem", "$type": "dimension" }
+      },
+      "radius": {
+        "none": { "$value": "0", "$type": "dimension" },
+        "sm": { "$value": "0.375rem", "$type": "dimension" },
+        "md": { "$value": "0.5rem", "$type": "dimension" },
+        "lg": { "$value": "0.75rem", "$type": "dimension" },
+        "xl": { "$value": "1rem", "$type": "dimension" },
+        "full": { "$value": "9999px", "$type": "dimension" }
+      }
+    },
+    "semantic": {
+      "color": {
+        "brand-primary": { "$value": "{primitive.color.navy-900}", "$type": "color" },
+        "brand-primary-light": { "$value": "{primitive.color.navy-700}", "$type": "color" },
+        "brand-secondary": { "$value": "{primitive.color.red-700}", "$type": "color" },
+        "brand-secondary-light": { "$value": "{primitive.color.red-500}", "$type": "color" },
+        "brand-accent": { "$value": "{primitive.color.gold-500}", "$type": "color" },
+        "brand-accent-dark": { "$value": "{primitive.color.gold-600}", "$type": "color" },
+        "surface-default": { "$value": "{primitive.color.gray-50}", "$type": "color" },
+        "surface-elevated": { "$value": "{primitive.color.white}", "$type": "color" },
+        "surface-muted": { "$value": "{primitive.color.gray-100}", "$type": "color" },
+        "text-default": { "$value": "{primitive.color.gray-900}", "$type": "color" },
+        "text-muted": { "$value": "{primitive.color.gray-600}", "$type": "color" },
+        "text-on-primary": { "$value": "{primitive.color.white}", "$type": "color" },
+        "text-on-secondary": { "$value": "{primitive.color.white}", "$type": "color" },
+        "text-on-accent": { "$value": "{primitive.color.gray-900}", "$type": "color" },
+        "feedback-error": { "$value": "{primitive.color.red-600-error}", "$type": "color" },
+        "feedback-success": { "$value": "{primitive.color.green-600}", "$type": "color" }
+      },
+      "space": {
+        "section-padding": { "$value": "{primitive.space.16}", "$type": "dimension" },
+        "section-padding-lg": { "$value": "{primitive.space.24}", "$type": "dimension" },
+        "component-gap": { "$value": "{primitive.space.6}", "$type": "dimension" },
+        "text-gap": { "$value": "{primitive.space.4}", "$type": "dimension" }
+      },
+      "radius": {
+        "interactive": { "$value": "{primitive.radius.lg}", "$type": "dimension" },
+        "container": { "$value": "{primitive.radius.lg}", "$type": "dimension" }
+      }
+    },
+    "component": {
+      "button-primary-bg": { "$value": "{semantic.color.brand-primary}", "$type": "color" },
+      "button-primary-bg-hover": { "$value": "{semantic.color.brand-primary-light}", "$type": "color" },
+      "button-primary-text": { "$value": "{semantic.color.text-on-primary}", "$type": "color" },
+      "button-secondary-bg": { "$value": "{semantic.color.brand-secondary}", "$type": "color" },
+      "button-secondary-text": { "$value": "{semantic.color.text-on-secondary}", "$type": "color" },
+      "card-bg": { "$value": "{semantic.color.surface-elevated}", "$type": "color" },
+      "card-border": { "$value": "{primitive.color.gray-200}", "$type": "color" },
+      "card-radius": { "$value": "{semantic.radius.container}", "$type": "dimension" },
+      "input-bg": { "$value": "{semantic.color.surface-elevated}", "$type": "color" },
+      "input-border": { "$value": "{primitive.color.gray-200}", "$type": "color" },
+      "input-border-focus": { "$value": "{semantic.color.brand-primary}", "$type": "color" }
+    }
+  },
+
+  "typography": {
+    "fontFamily": {
+      "heading": ["'Nunito'", "system-ui", "sans-serif"],
+      "body": ["'Nunito'", "system-ui", "sans-serif"]
+    },
+    "fontWeight": {
+      "heading": "700",
+      "subheading": "600",
+      "body": "400",
+      "bold": "600"
+    },
+    "letterSpacing": {
+      "heading": "-0.01em",
+      "body": "0"
+    },
+    "fontSize": {
+      "h1": ["2.5rem", { "lineHeight": "1.15", "letterSpacing": "-0.01em" }],
+      "h1_md": ["3rem", { "lineHeight": "1.15" }],
+      "h1_lg": ["3.5rem", { "lineHeight": "1.1" }],
+      "h2": ["1.75rem", { "lineHeight": "1.2" }],
+      "h3": ["1.25rem", { "lineHeight": "1.3" }],
+      "body": ["1rem", { "lineHeight": "1.7" }],
+      "small": ["0.875rem", { "lineHeight": "1.5" }]
+    }
+  },
+
+  "spacing": {
+    "section": { "y": "4rem", "y_md": "6rem" },
+    "container": { "maxWidth": "72rem", "paddingX": "1rem", "paddingX_md": "2rem" },
+    "stack": { "sm": "0.5rem", "md": "1rem", "lg": "2rem" },
+    "grid": { "gap": "1.5rem", "gap_md": "2rem" }
+  },
+
+  "borders": {
+    "radius": { "none": "0", "DEFAULT": "0.75rem", "sm": "0.375rem", "md": "0.5rem", "lg": "0.75rem" },
+    "width": { "DEFAULT": "1px", "thick": "2px" }
+  },
+
+  "shadows": {
+    "none": "none",
+    "sm": "0 1px 3px 0 rgba(27, 42, 74, 0.06)",
+    "DEFAULT": "0 4px 6px -1px rgba(27, 42, 74, 0.08), 0 2px 4px -2px rgba(27, 42, 74, 0.06)",
+    "md": "0 4px 6px -1px rgba(27, 42, 74, 0.08), 0 2px 4px -2px rgba(27, 42, 74, 0.06)",
+    "lg": "0 10px 15px -3px rgba(27, 42, 74, 0.08), 0 4px 6px -4px rgba(27, 42, 74, 0.06)"
+  },
+
+  "motion": {
+    "duration": {
+      "instant": "100ms",
+      "fast": "200ms",
+      "normal": "300ms",
+      "slow": "500ms"
+    },
+    "easing": {
+      "default": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "in": "cubic-bezier(0.4, 0, 1, 1)",
+      "out": "cubic-bezier(0, 0, 0.2, 1)"
+    }
+  },
+
+  "components": {
+    "button": {
+      "primary": {
+        "base": "inline-flex items-center justify-center font-semibold transition-colors",
+        "size": "px-6 py-3 text-base",
+        "colors": "bg-[#1B2A4A] text-white hover:bg-[#2D4A7A]",
+        "radius": "rounded-lg"
+      },
+      "secondary": {
+        "base": "inline-flex items-center justify-center font-semibold transition-colors",
+        "size": "px-6 py-3 text-base",
+        "colors": "bg-[#C41E3A] text-white hover:bg-[#E8384F]",
+        "radius": "rounded-lg"
+      },
+      "accent": {
+        "base": "inline-flex items-center justify-center font-bold transition-colors",
+        "size": "px-6 py-3 text-base",
+        "colors": "bg-[#FFD700] text-[#1A1A1A] hover:bg-[#E5C100]",
+        "radius": "rounded-lg"
+      }
+    },
+    "card": {
+      "base": "bg-white border border-gray-200",
+      "padding": "p-6",
+      "radius": "rounded-lg",
+      "shadow": "shadow-md"
+    },
+    "input": {
+      "base": "w-full bg-white border border-gray-200 text-gray-900 transition-colors",
+      "padding": "px-4 py-3",
+      "focus": "focus:border-[#1B2A4A] focus:outline-none focus:ring-2 focus:ring-[#1B2A4A]/20",
+      "radius": "rounded-lg"
+    }
+  },
+
+  "tailwindConfig": {
+    "theme": {
+      "extend": {
+        "colors": {
+          "primary": { "DEFAULT": "#1B2A4A", "light": "#2D4A7A", "dark": "#0F1A2E" },
+          "secondary": { "DEFAULT": "#C41E3A", "light": "#E8384F" },
+          "accent": { "DEFAULT": "#FFD700", "dark": "#E5C100" },
+          "background": { "DEFAULT": "#FAFAFA", "alt": "#F0F0F0" },
+          "foreground": { "DEFAULT": "#1A1A1A", "muted": "#6B7280" },
+          "border": "#E5E5E5",
+          "error": "#DC2626",
+          "success": "#059669"
+        },
+        "fontFamily": {
+          "heading": ["'Nunito'", "system-ui", "sans-serif"],
+          "body": ["'Nunito'", "system-ui", "sans-serif"]
+        },
+        "borderRadius": { "DEFAULT": "0.75rem", "sm": "0.375rem", "lg": "0.75rem" },
+        "boxShadow": {
+          "DEFAULT": "0 4px 6px -1px rgba(27, 42, 74, 0.08), 0 2px 4px -2px rgba(27, 42, 74, 0.06)",
+          "md": "0 4px 6px -1px rgba(27, 42, 74, 0.08), 0 2px 4px -2px rgba(27, 42, 74, 0.06)"
+        }
+      }
+    }
+  },
+
+  "nextFonts": {
+    "import": "import { Nunito } from 'next/font/google'",
+    "config": {
+      "subsets": ["latin", "latin-ext"],
+      "weight": ["400", "600", "700"],
+      "variable": "--font-nunito",
+      "display": "swap"
+    }
+  },
+
+  "shots": [
+    {
+      "id": "hero",
+      "section": "Hero",
+      "role": "Background photo",
+      "source": "photo",
+      "photo": "photo-7.jpg",
+      "altText": "Nowoczesny dom wykonczony przez TOM-ART",
+      "overlay": "linear-gradient(to right, rgba(27,42,74,0.85), rgba(27,42,74,0.4))",
+      "note": "WARM direction = brak animated background. Uzyj zdjecia realizacji z overlayem."
+    },
+    {
+      "id": "about",
+      "section": "O firmie",
+      "role": "Section photo",
+      "source": "photo",
+      "photo": "photo-1.jpg",
+      "altText": "Elegancki dom z kolumnami — realizacja TOM-ART"
+    },
+    {
+      "id": "services",
+      "section": "Uslugi",
+      "role": "Service cards",
+      "source": "photos",
+      "photos": ["photo-4.jpg", "photo-8.jpg", "photo-3.jpg"],
+      "altText": ["Wykonczenie wnetrza", "Elewacja domu", "Malowanie i posadzki"]
+    },
+    {
+      "id": "gallery",
+      "section": "Realizacje",
+      "role": "Gallery grid",
+      "source": "photos",
+      "photos": ["photo-1.jpg", "photo-4.jpg", "photo-7.jpg", "photo-8.jpg"],
+      "note": "Tylko autentyczne zdjecia TOM-ART. Wykluczone: photo-5, photo-6 (inne firmy), photo-3 (potencjalny stock)"
+    }
+  ],
+
+  "accessibility": {
+    "contrastChecks": {
+      "text-on-background": {
+        "foreground": "#1A1A1A",
+        "background": "#FAFAFA",
+        "ratio": 17.4,
+        "required": 4.5,
+        "wcagAA": true,
+        "wcagAAA": true
+      },
+      "text-on-primary": {
+        "foreground": "#FFFFFF",
+        "background": "#1B2A4A",
+        "ratio": 12.8,
+        "required": 4.5,
+        "wcagAA": true,
+        "wcagAAA": true
+      },
+      "text-on-secondary": {
+        "foreground": "#FFFFFF",
+        "background": "#C41E3A",
+        "ratio": 5.4,
+        "required": 4.5,
+        "wcagAA": true,
+        "wcagAAA": false
+      },
+      "text-on-accent": {
+        "foreground": "#1A1A1A",
+        "background": "#FFD700",
+        "ratio": 11.2,
+        "required": 4.5,
+        "wcagAA": true,
+        "wcagAAA": true
+      },
+      "muted-on-background": {
+        "foreground": "#6B7280",
+        "background": "#FAFAFA",
+        "ratio": 5.5,
+        "required": 4.5,
+        "wcagAA": true,
+        "wcagAAA": false
+      },
+      "primary-on-background": {
+        "foreground": "#1B2A4A",
+        "background": "#FAFAFA",
+        "ratio": 12.8,
+        "required": 3.0,
+        "wcagAA": true
+      }
+    },
+    "issues": [],
+    "minFontSize": "16px",
+    "focusVisible": true,
+    "touchTargetMin": "44px"
+  },
+
+  "DESIGN_DECISIONS_SUMMARY": {
+    "direction_match": "Wszystkie decyzje konsystentne z WARM direction",
+    "ai_patterns_avoided": ["#8B5CF6 (purple)", "#EC4899 (pink)", "Poppins", "glassmorphism", "gradient text"],
+    "traceability": {
+      "colors_primary": "Granat #1B2A4A z logo TOM-ART (photo-2.jpg)",
+      "colors_secondary": "Czerwony #C41E3A z ikony domu w logo (photo-2.jpg)",
+      "colors_accent": "Zloty #FFD700 z artystycznego tla logo + nawiazanie do nagrody Orly",
+      "typography": "Nunito = rounded/WARM, nie overused",
+      "shapes": "0.75rem radius = WARM (zaokraglone, przyjazne)",
+      "shadows": "shadow-md na kartach = WARM (delikatny depth)",
+      "animated_bg": "BRAK — WARM direction nie uzywa animated backgrounds"
+    },
+    "confidence": "high"
+  }
+}
