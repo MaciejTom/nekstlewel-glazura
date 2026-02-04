@@ -11,7 +11,7 @@ const iconImages = [
 
 export function WhyUsIcons() {
   return (
-    <section className="py-24 relative overflow-hidden" style={{ backgroundColor: '#000000' }}>
+    <section id="dlaczego" className="py-24 relative overflow-hidden" style={{ backgroundColor: '#000000' }}>
       {/* Background Grid */}
       <div
         className="absolute inset-0 z-0 opacity-[0.15]"

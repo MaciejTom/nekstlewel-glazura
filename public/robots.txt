@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mal-cer.pl/sitemap.xml
+Sitemap: https://glazurnik-zielona-gora.pl/sitemap.xml
