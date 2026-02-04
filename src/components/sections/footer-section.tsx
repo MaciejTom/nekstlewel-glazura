@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { siteConfig, navItems } from "@/lib/content";
 import { Phone, MapPin } from "lucide-react";
 
@@ -37,8 +38,13 @@ export function FooterSection() {
         <div className={s.main}>
           {/* Brand */}
           <div className={s.brand}>
-            <div className={s.brandName}>{siteConfig.name}</div>
-            <div className={s.brandTagline}>Posadzki przemysłowe</div>
+            <div className="flex items-center gap-3 justify-center md:justify-start">
+              <Image src="/logo-g.svg" alt={siteConfig.name} width={48} height={48} />
+              <div>
+                <div className={s.brandName}>{siteConfig.name}</div>
+                <div className={s.brandTagline}>Posadzki przemysłowe</div>
+              </div>
+            </div>
           </div>
 
           {/* Navigation */}

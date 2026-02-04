@@ -22,7 +22,7 @@ const s = {
   stepNumberCircle: "w-12 h-12 flex items-center justify-center bg-accent text-accent-foreground font-bold text-xl rounded-md",
   stepNumberLine: "flex-1 h-px bg-border hidden sm:block",
 
-  stepTitle: "text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors",
+  stepTitle: "text-xl font-bold text-foreground mb-3 group-hover:text-accent transition-colors",
   stepDesc: "text-muted-foreground text-sm",
 
   // Memorable section

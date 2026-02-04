@@ -1,13 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import { whyUsContent, siteConfig } from "@/lib/content";
-import { Phone, Square, Shield, Warehouse } from "lucide-react";
+import { Phone } from "lucide-react";
 
-const iconMap: Record<string, React.ReactNode> = {
-  Square: <Square className="w-8 h-8 text-accent" />,
-  Shield: <Shield className="w-8 h-8 text-accent" />,
-  Warehouse: <Warehouse className="w-8 h-8 text-accent" />,
-};
+const iconImages = [
+  "/Whisk_0edb4d1d534f5ca99404fd0a8b8d191bdr.jpeg",
+  "/Whisk_74081e66ffb6fd380ca4fc29dbb13beddr.jpeg",
+  "/Whisk_e614751f6180717a8be44bf7a0d3880edr.jpeg",
+];
 
 export function WhyUsAlternative() {
   return (
@@ -37,11 +38,17 @@ export function WhyUsAlternative() {
               className="group relative bg-card border border-border rounded-lg p-8 transition-all duration-300 card-hover"
             >
               {/* Icon */}
-              <div className="w-16 h-16 bg-accent/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
-                {iconMap[item.icon] || <Square className="w-8 h-8 text-accent" />}
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-xl overflow-hidden mb-8">
+                <Image
+                  src={iconImages[index] || iconImages[0]}
+                  alt={item.title}
+                  width={160}
+                  height={160}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
-              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-4 group-hover:text-primary transition-colors">
+              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-4 group-hover:text-accent transition-colors">
                 {item.title}
               </h3>
 

@@ -3,6 +3,7 @@ export { HeroSection } from "./hero-section";
 export { ProblemSection } from "./problem-section";
 export { WhyUsSection } from "./why-us-section";
 export { WhyUsAlternative } from "./why-us-alternative";
+export { WhyUsIcons } from "./why-us-icons";
 export { ServicesSection } from "./services-section";
 export { ProcessSection } from "./process-section";
 export { PortfolioSection } from "./portfolio-section";

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { navItems, siteConfig } from "@/lib/content";
 import { Phone, Menu, X } from "lucide-react";
 
@@ -18,7 +19,7 @@ const s = {
 
   links: "hidden lg:flex items-center gap-1",
   link: "px-4 py-2 text-sm transition-colors rounded-md",
-  linkScrolled: "text-muted-foreground hover:text-primary hover:bg-secondary",
+  linkScrolled: "text-muted-foreground hover:text-accent hover:bg-secondary",
   linkTop: "text-white/80 hover:text-white hover:bg-white/10",
 
   cta: "hidden md:inline-flex items-center gap-2 px-5 py-2.5 font-semibold text-sm rounded-md transition-colors",
@@ -26,12 +27,12 @@ const s = {
   ctaTop: "bg-accent text-accent-foreground hover:bg-accent/90",
 
   mobileBtn: "lg:hidden w-11 h-11 flex items-center justify-center rounded-md transition-colors",
-  mobileBtnScrolled: "text-foreground hover:text-primary hover:bg-secondary",
+  mobileBtnScrolled: "text-foreground hover:text-accent hover:bg-secondary",
   mobileBtnTop: "text-white hover:text-white hover:bg-white/10",
 
   mobileMenu: "lg:hidden fixed inset-0 top-16 md:top-20 bg-background z-40",
   mobileMenuInner: "container mx-auto px-6 py-8 flex flex-col gap-2",
-  mobileLink: "text-lg text-foreground py-4 border-b border-border hover:text-primary transition-colors",
+  mobileLink: "text-lg text-foreground py-4 border-b border-border hover:text-accent transition-colors",
   mobileCta: "mt-6 inline-flex items-center justify-center gap-3 bg-accent text-accent-foreground px-6 py-4 font-semibold text-lg rounded-md",
 };
 
@@ -53,6 +54,7 @@ export function NavSection() {
         <div className={s.container}>
           {/* Logo */}
           <a href="/" className={s.logo}>
+            <Image src="/logo-g.svg" alt={siteConfig.name} width={40} height={40} />
             <span className={`${s.logoText} ${scrolled ? s.logoTextScrolled : s.logoTextTop}`}>
               {siteConfig.name}
             </span>

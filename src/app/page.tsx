@@ -4,14 +4,13 @@ import {
   ProblemSection,
   ServicesSection,
   ProcessSection,
-  WhyUsAlternative,
+  WhyUsIcons,
   PortfolioSection,
   FaqSection,
   ContactSection,
   FooterSection,
   BackToTop,
 } from "@/components/sections";
-import { ThemePanel } from "@/components/theme-panel";
 
 export default function HomePage() {
   return (
@@ -22,14 +21,13 @@ export default function HomePage() {
         <ProblemSection />
         <ServicesSection />
         <ProcessSection />
-        <WhyUsAlternative />
+        <WhyUsIcons />
         <PortfolioSection />
         <FaqSection />
         <ContactSection />
       </main>
       <FooterSection />
       <BackToTop />
-      <ThemePanel />
     </>
   );
 }

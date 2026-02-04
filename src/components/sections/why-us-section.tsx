@@ -21,7 +21,7 @@ const s = {
   cardIcon: "w-14 h-14 bg-primary flex items-center justify-center",
   cardIconInner: "text-primary-foreground text-2xl",
 
-  cardTitle: "font-heading text-xl md:text-2xl text-foreground mb-3 group-hover:text-primary transition-colors",
+  cardTitle: "font-heading text-xl md:text-2xl text-foreground mb-3 group-hover:text-accent transition-colors",
   cardDesc: "text-muted-foreground text-sm mb-6",
 
   // Memorable quote

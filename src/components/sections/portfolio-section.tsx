@@ -13,12 +13,12 @@ const s = {
   headline: "text-3xl sm:text-4xl md:text-5xl font-bold text-foreground h2-bar-center",
   description: "mt-4 text-muted-foreground",
 
-  // Grid - 2x2 for 4 items
-  grid: "grid grid-cols-1 md:grid-cols-2 gap-6",
+  // Bento Grid - 3 items
+  grid: "grid grid-cols-1 md:grid-cols-2 gap-8 auto-rows-[350px] md:auto-rows-[400px]",
 
   // Card
-  card: "group relative overflow-hidden bg-card border border-border rounded-lg hover:border-primary transition-colors card-hover",
-  cardImageWrapper: "relative w-full aspect-[16/10] overflow-hidden",
+  card: "group relative overflow-hidden bg-card border border-border rounded-lg hover:border-accent transition-colors",
+  cardImageWrapper: "absolute inset-0 overflow-hidden",
   cardOverlay: "absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent",
 
   // Content
@@ -30,7 +30,7 @@ const s = {
 
   // CTA
   ctaSection: "mt-12 text-center",
-  ctaButton: "inline-flex items-center gap-3 bg-primary text-primary-foreground px-8 py-4 font-semibold text-lg rounded-md hover:bg-primary/90 transition-colors",
+  ctaButton: "inline-flex items-center gap-3 bg-accent text-accent-foreground px-8 py-4 font-semibold text-lg rounded-md hover:bg-accent/90 transition-colors",
 };
 
 export function PortfolioSection() {
@@ -45,32 +45,38 @@ export function PortfolioSection() {
           <p className={s.description}>{portfolioContent.description}</p>
         </div>
 
-        {/* Grid */}
+        {/* Mosaic Grid */}
         <div className={s.grid}>
-          {items.map((item) => (
-            <div key={item.id} className={s.card}>
-              <div className={s.cardImageWrapper}>
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                  loading="lazy"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className={s.cardOverlay} />
-              </div>
-              <div className={s.cardContent}>
-                <div className={s.cardTags}>
-                  {item.tags.map((tag, i) => (
-                    <span key={i} className={s.cardTag}>{tag}</span>
-                  ))}
+          {items.map((item, index) => {
+            // Layout for 3 items: first one full width, two below side by side
+            const sizeClass =
+              index === 0 ? "md:col-span-2" : "";
+
+            return (
+              <div key={item.id} className={`${s.card} ${sizeClass}`}>
+                <div className={s.cardImageWrapper}>
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    loading="lazy"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className={s.cardOverlay} />
                 </div>
-                <h3 className={s.cardTitle}>{item.title}</h3>
-                <p className={s.cardDesc}>{item.description}</p>
+                <div className={s.cardContent}>
+                  <div className={s.cardTags}>
+                    {item.tags.map((tag, i) => (
+                      <span key={i} className={s.cardTag}>{tag}</span>
+                    ))}
+                  </div>
+                  <h3 className={s.cardTitle}>{item.title}</h3>
+                  <p className={s.cardDesc}>{item.description}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* CTA */}

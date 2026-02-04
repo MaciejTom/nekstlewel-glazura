@@ -23,7 +23,7 @@ const s = {
   cardContent: "p-6",
   cardIconRow: "flex items-center gap-3 mb-3",
   cardIcon: "w-10 h-10 bg-accent/10 rounded-md flex items-center justify-center",
-  cardTitle: "text-xl md:text-2xl font-bold text-foreground group-hover:text-primary transition-colors",
+  cardTitle: "text-xl md:text-2xl font-bold text-foreground group-hover:text-accent transition-colors",
   cardSubtitle: "text-sm text-accent font-medium mb-3",
   cardDesc: "text-muted-foreground text-sm mb-4",
 

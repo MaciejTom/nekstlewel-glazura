@@ -15,11 +15,11 @@ const s = {
   items: "max-w-3xl mx-auto space-y-3",
 
   item: "group bg-card border border-border overflow-hidden rounded-lg transition-colors",
-  itemOpen: "border-primary",
+  itemOpen: "border-accent",
 
   question: "w-full flex justify-between items-center p-5 md:p-6 text-left cursor-pointer",
   questionText: "font-semibold text-base md:text-lg text-foreground pr-4 transition-colors",
-  questionTextOpen: "text-primary",
+  questionTextOpen: "text-accent",
 
   questionIcon: "w-10 h-10 flex items-center justify-center shrink-0 transition-colors bg-secondary rounded-md",
   questionIconOpen: "bg-accent",
@@ -30,7 +30,7 @@ const s = {
   answerWrapperClosed: "grid-rows-[0fr] opacity-0",
   answerWrapperOpen: "grid-rows-[1fr] opacity-100",
   answerInner: "overflow-hidden",
-  answer: "px-5 md:px-6 pb-5 md:pb-6 text-muted-foreground text-sm md:text-base leading-relaxed",
+  answer: "px-5 md:px-6 pb-5 md:pb-6 text-foreground/80 text-sm md:text-base leading-relaxed",
 };
 
 export function FaqSection() {

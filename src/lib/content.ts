@@ -14,7 +14,8 @@ export const siteConfig = {
 
 export const heroContent = {
   headline: "Posadzki przemysłowe.",
-  headlineAccent: "Zielona Góra.",
+  headlineAccent: "Zielona Góra",
+  headlineAccent2: "i całe lubuskie.",
   subheadline:
     "Hale magazynowe, serwisy samochodowe, showroomy. Płytki które wytrzymają podnośnik, olej i lata codziennego użytkowania. 500 m² to standard.",
   memorable: "Hale, serwisy, showroomy — to moja specjalność.",
@@ -184,14 +185,6 @@ export const portfolioContent = {
         "Duży obiekt dealerski — salon sprzedaży + zaplecze serwisowe. Płytki przemysłowe na całej powierzchni. Samochody premium, posadzka premium.",
       tags: ["Salony", "800+ m²"],
       image: "/glazura-3.jpg",
-    },
-    {
-      id: "przestrzen-komercyjna",
-      title: "Przestrzeń komercyjna",
-      description:
-        "Nowoczesny obiekt komercyjny. Duży format płytek, szklane ściany, oświetlenie LED. Wykończenie showroomowe.",
-      tags: ["Showroomy", "Komercyjne"],
-      image: "/glazura-4.jpg",
     },
   ],
   cta: {

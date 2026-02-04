@@ -19,7 +19,7 @@ const s = {
   contactItem: "group flex items-center gap-4 p-3 -mx-3 rounded-lg hover:bg-card transition-colors cursor-pointer",
   contactIcon: "w-12 h-12 bg-accent flex items-center justify-center rounded-md",
   contactLabel: "text-xs text-muted-foreground uppercase tracking-wider",
-  contactValue: "text-lg text-foreground font-semibold group-hover:text-primary transition-colors",
+  contactValue: "text-lg text-foreground font-semibold group-hover:text-accent transition-colors",
 
   area: "mt-8 pt-6 border-t border-border",
   areaLabel: "text-xs text-muted-foreground mb-2 uppercase tracking-wider flex items-center gap-2",
