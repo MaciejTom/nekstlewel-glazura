@@ -8,7 +8,7 @@ const s = {
   section: "min-h-screen flex items-center relative bg-background pt-20",
 
   imageBg: "absolute inset-0",
-  overlay: "absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-primary/40 z-10",
+  overlay: "absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/50 z-10",
 
   container: "container mx-auto px-6 py-12 lg:py-16 relative z-20",
   content: "max-w-2xl",

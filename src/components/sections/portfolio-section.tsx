@@ -19,7 +19,7 @@ const s = {
   // Card
   card: "group relative overflow-hidden bg-card border border-border rounded-lg hover:border-primary transition-colors card-hover",
   cardImageWrapper: "relative w-full aspect-[16/10] overflow-hidden",
-  cardOverlay: "absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent",
+  cardOverlay: "absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent",
 
   // Content
   cardContent: "absolute bottom-0 left-0 right-0 p-5",

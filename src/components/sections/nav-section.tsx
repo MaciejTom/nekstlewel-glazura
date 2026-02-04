@@ -6,7 +6,7 @@ import { Phone, Menu, X } from "lucide-react";
 
 const s = {
   nav: "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-  navScrolled: "bg-background/95 backdrop-blur-sm border-b border-border shadow-sm",
+  navScrolled: "bg-card/95 backdrop-blur-sm border-b border-border shadow-sm",
   navTop: "bg-transparent",
   container: "container mx-auto px-6 flex items-center justify-between h-16 md:h-20",
 
