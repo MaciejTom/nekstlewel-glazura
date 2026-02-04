@@ -31,7 +31,7 @@ export function HeroSection() {
     <section className={s.section}>
       <div className={s.imageBg}>
         <Image
-          src="/heroBack.jpg"
+          src="/heroBack.webp"
           alt="Posadzka przemysłowa - hala"
           fill
           className="object-cover"

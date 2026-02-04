@@ -39,10 +39,10 @@ const s = {
 };
 
 const serviceImages = [
-  "/glazura-hero.jpg",
-  "/glazura-2.jpg",
-  "/glazura-3.jpg",
-  "/glazura-4.jpg",
+  "/glazura-hero.webp",
+  "/glazura-2.webp",
+  "/glazura-3.webp",
+  "/glazura-4.webp",
 ];
 
 const iconMap: Record<string, React.ReactNode> = {

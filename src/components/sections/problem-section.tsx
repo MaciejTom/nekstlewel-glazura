@@ -46,7 +46,7 @@ export function ProblemSection() {
           {/* Right - Image */}
           <div className="relative aspect-square rounded-xl overflow-hidden">
             <Image
-              src="/second.jpeg"
+              src="/second.webp"
               alt="Posadzka przemysłowa"
               fill
               className="object-cover"

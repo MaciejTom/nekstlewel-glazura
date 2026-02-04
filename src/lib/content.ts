@@ -168,7 +168,7 @@ export const portfolioContent = {
       description:
         "Hala produkcyjno-magazynowa. Szare płytki przemysłowe na całej powierzchni. Odporność na wózki widłowe i ciężki sprzęt.",
       tags: ["Hale", "500+ m²"],
-      image: "/glazura-hero.jpg",
+      image: "/glazura-hero.webp",
     },
     {
       id: "warsztat-samochodowy",
@@ -176,7 +176,7 @@ export const portfolioContent = {
       description:
         "Warsztat z podnośnikami hydraulicznymi. Płytki odporne na olej i obciążenia punktowe. Profesjonalne wykończenie dla serwisu.",
       tags: ["Serwisy", "Motoryzacja"],
-      image: "/glazura-2.jpg",
+      image: "/glazura-2.webp",
     },
     {
       id: "salon-serwis",
@@ -184,7 +184,7 @@ export const portfolioContent = {
       description:
         "Duży obiekt dealerski — salon sprzedaży + zaplecze serwisowe. Płytki przemysłowe na całej powierzchni. Samochody premium, posadzka premium.",
       tags: ["Salony", "800+ m²"],
-      image: "/glazura-3.jpg",
+      image: "/glazura-3.webp",
     },
   ],
   cta: {
