@@ -1,0 +1,26 @@
+/* THEME: CONCRETE
+   Font: DM Sans - czytelny, nowoczesny
+   Paleta: Czarny + Żółty Safety
+*/
+
+:root {
+  --background: #09090B;
+  --foreground: #FAFAFA;
+  --card: #18181B;
+  --card-foreground: #FAFAFA;
+  --popover: #18181B;
+  --popover-foreground: #FAFAFA;
+  --primary: #27272A;
+  --primary-foreground: #FAFAFA;
+  --secondary: #18181B;
+  --secondary-foreground: #FAFAFA;
+  --muted: #27272A;
+  --muted-foreground: #A1A1AA;
+  --accent: #FACC15;
+  --accent-foreground: #09090B;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #27272A;
+  --input: #27272A;
+  --ring: #FACC15;
+}

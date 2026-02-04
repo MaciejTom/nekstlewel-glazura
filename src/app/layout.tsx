@@ -1,9 +1,29 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Space_Grotesk, DM_Sans, Outfit, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
   variable: "--font-inter",
+  subsets: ["latin", "latin-ext"],
+});
+
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space",
+  subsets: ["latin", "latin-ext"],
+});
+
+const dmSans = DM_Sans({
+  variable: "--font-dm",
+  subsets: ["latin", "latin-ext"],
+});
+
+const outfit = Outfit({
+  variable: "--font-outfit",
+  subsets: ["latin", "latin-ext"],
+});
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-jakarta",
   subsets: ["latin", "latin-ext"],
 });
 
@@ -35,7 +55,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className={`${inter.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${spaceGrotesk.variable} ${dmSans.variable} ${outfit.variable} ${plusJakartaSans.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>

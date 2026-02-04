@@ -1,0 +1,26 @@
+/* THEME: WARM INDUSTRIAL
+   Font: Outfit - przyjazny, zaokrąglony
+   Paleta: Ciemny brąz + Pomarańczowy
+*/
+
+:root {
+  --background: #1C1917;
+  --foreground: #FAFAF9;
+  --card: #292524;
+  --card-foreground: #FAFAF9;
+  --popover: #292524;
+  --popover-foreground: #FAFAF9;
+  --primary: #44403C;
+  --primary-foreground: #FAFAF9;
+  --secondary: #292524;
+  --secondary-foreground: #FAFAF9;
+  --muted: #44403C;
+  --muted-foreground: #A8A29E;
+  --accent: #F97316;
+  --accent-foreground: #FFFFFF;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #44403C;
+  --input: #44403C;
+  --ring: #F97316;
+}

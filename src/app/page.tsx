@@ -11,6 +11,7 @@ import {
   FooterSection,
   BackToTop,
 } from "@/components/sections";
+import { ThemeSwitcher } from "@/components/theme-switcher";
 
 export default function HomePage() {
   return (
@@ -28,6 +29,7 @@ export default function HomePage() {
       </main>
       <FooterSection />
       <BackToTop />
+      <ThemeSwitcher />
     </>
   );
 }
