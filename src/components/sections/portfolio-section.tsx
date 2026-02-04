@@ -61,7 +61,7 @@ export function PortfolioSection() {
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
                     loading="lazy"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105 brightness-110"
                   />
                   <div className={s.cardOverlay} />
                 </div>
