@@ -7,6 +7,7 @@
    ============================================= */
 
 :root {
+  /* Base colors */
   --background: #111827;
   --foreground: #F9FAFB;
   --card: #1F2937;
@@ -26,13 +27,60 @@
   --border: #374151;
   --input: #374151;
   --ring: #F59E0B;
+
+  /* Typography */
   --font-sans: var(--font-inter);
   --font-heading: var(--font-inter);
-  --radius: 0.375rem;
+  --font-size-base: 16px;
+  --heading-weight: 700;
+  --line-height: 1.6;
+  --letter-spacing: 0em;
+  --scale: 1.25;
+
+  /* Typography scale */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 30px;
+  --text-3xl: 38px;
+  --text-4xl: 48px;
+
+  /* Layout */
+  --container-width: 1280px;
+  --section-spacing: 5rem;
+  --card-padding: 1.5rem;
+  --grid-columns: 3;
+
+  /* Border radius */
+  --radius: 8px;
+  --radius-sm: 4px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --button-radius: 8px;
+
+  /* Shadows */
   --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
   --shadow: 0 2px 4px rgba(0,0,0,0.3);
   --shadow-md: 0 4px 8px rgba(0,0,0,0.4);
   --shadow-lg: 0 8px 16px rgba(0,0,0,0.5);
+
+  /* Effects */
+  --animation-speed: 0.3s;
+  --animation-enabled: 1;
+  --hover-scale: 1.02;
+  --hover-effect: scale;
+  --blur-enabled: 1;
+  --blur-intensity: 10px;
+  --gradients-enabled: 0;
+
+  /* Component styles */
+  --card-style: bordered;
+  --nav-style: blur;
+  --icon-style: outline;
+  --separator-style: line;
+
   --tracking-normal: 0;
 }
 
@@ -81,15 +129,17 @@ html {
 
 /* Section spacing */
 .section-spacing {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: var(--section-spacing);
+  padding-bottom: var(--section-spacing);
 }
 
-@media (min-width: 768px) {
-  .section-spacing {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
+/* Hide scrollbar utility */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
 /* Scrollbar - dark theme */
